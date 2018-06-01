@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2018-05-31 17:36:37
+<?php /* Smarty version 2.6.30, created on 2018-06-01 18:07:53
          compiled from index.tpl */ ?>
 <html>
 <head>
@@ -112,7 +112,7 @@
 </div>
 <![endif]-->
 
-<div id="page-header">
+<div id="">
     <div id="header-wrapper">
     <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "Common/Header/Header.tpl", 'smarty_include_vars' => array()));
@@ -121,26 +121,5 @@ unset($_smarty_tpl_vars);
  ?>
     </div>
 </div>
-
-<div id="page-container">
-    <div id="page-wrapper">
-        <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "Homepage/domain-focused-indexv1.tpl", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
-    </div>
-</div>
-
-<div id="page-footer">
-    <div id="footer-wrapper">
-        <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "Common/Footer/Footer.tpl", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
-    </div>
-</div>
-
 </body>
 </html>

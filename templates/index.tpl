@@ -111,23 +111,10 @@
 </div>
 <![endif]-->
 
-<div id="page-header">
+<div id="">
     <div id="header-wrapper">
     <#include file="Common/Header/Header.tpl"#>
     </div>
 </div>
-
-<div id="page-container">
-    <div id="page-wrapper">
-        <#include file="Homepage/domain-focused-indexv1.tpl"#>
-    </div>
-</div>
-
-<div id="page-footer">
-    <div id="footer-wrapper">
-        <#include file="Common/Footer/Footer.tpl"#>
-    </div>
-</div>
-
 </body>
 </html>

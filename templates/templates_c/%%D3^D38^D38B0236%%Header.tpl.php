@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2018-05-31 17:05:30
+<?php /* Smarty version 2.6.30, created on 2018-06-01 18:11:14
          compiled from Common/Header/Header.tpl */ ?>
 <!-- Scripts movidos para el root.html
 <script type="text/javascript" src="/ui/supersite/en/js/jquery.innerfade.js"></script>
