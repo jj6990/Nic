@@ -1,0 +1,164 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('/getImage.php?src=fonts/montserrat-bold-webfont.eot');
+    src: url('/getImage.php?src=fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/getImage.php?src=fonts/montserrat-bold-webfont.woff2') format('woff2'),
+    url('/getImage.php?src=fonts/montserrat-bold-webfont.woff') format('woff'),
+    url('/getImage.php?src=fonts/montserrat-bold-webfont.ttf') format('truetype'),
+    url('/getImage.php?src=fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('/getImage.php?src=fonts/montserrat-regular-webfont.eot');
+    src: url('/getImage.php?src=fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/getImage.php?src=fonts/montserrat-regular-webfont.woff2') format('woff2'),
+    url('/getImage.php?src=fonts/montserrat-regular-webfont.woff') format('woff'),
+    url('/getImage.php?src=fonts/montserrat-regular-webfont.ttf') format('truetype'),
+    url('/getImage.php?src=fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Footer style updates */
+
+#page-footer .new-footer-style .copyright-info-wrapper
+{  background: #111 none repeat scroll 0 0;  bottom: 0;  left: 0;  padding: 18px 0;  position: absolute;  right: 0;  }
+
+
+.new-footer-style .footer-cols, .new-footer-style .copyright-info-container
+{ margin: 0 auto;  padding-left: 0;  width: 1000px; }
+
+.new-footer-style .footer-cols
+{ margin: 0 auto 90px auto; padding-top: 36px; width: 992px; }
+
+.new-footer-style .footer-cols .col { width: 187px; margin: 0 22px 0 0; }
+
+.new-footer-style .footer-cols .col.three { width: 175px; margin-left: 15px; }
+
+.new-footer-style .footer-cols .col.four { width: 150px; }
+
+.new-footer-style .footer-cols .col.misc { margin: 0; }
+
+.new-footer-style .footer-cols .col h4
+{ font-family: "montserrat-bold", Arial; font-size: 16px; font-weight: normal; color:#fff; text-transform: uppercase; margin: 0 0 16px 0;  }
+
+#page-footer .new-footer-style  a,
+.new-footer-style #fineprint,
+#page-footer .new-footer-style  a.greytext,
+.new-footer-style .copyright-info-container span
+{ font-family: "proxima_nova", Arial; font-size: 15px; font-weight: 100; color: #dfdfdf;  }
+
+.new-footer-style #fineprint { border: 0; margin: 0; padding: 0; width:50%;  }
+
+
+/* Header style updates */
+
+.new-header-style .nav ul.navigation { padding: 0; margin: 0 auto; width: 1000px !important; }
+
+#page-header .new-header-style  h1#branding .logo-cont { width: 1000px !important; padding: 4px 0 0 0; }
+
+.new-header-style .top-header .top-nav .user-opt
+{ font-family: 'proxima_nova', Arial; font-size: 14px; font-weight: 100; color: #788698; text-align: right; }
+
+.new-header-style #primary-nav { background: #000; box-shadow: none; }
+
+.new-head-gray-bg#top-header { background: #f8f8f8; border-bottom:1px solid #eee; height: 40px; top:-6px;  }
+
+.new-header-style .top-header { height: 27px; margin: 3px auto; }
+
+.new-header-style .top-header .top-nav { margin: 0; }
+
+.new-header-style .top-header .top-nav > li { height: 35px; padding: 0 10px; vertical-align: middle; line-height: 32px; }
+
+.new-header-style .top-header .top-nav li a,
+.new-header-style .top-header .top-nav li span#current_selected_language,
+.new-header-style .top-header .top-nav li span#current_selected_currency,
+.new-header-style .dashboard-option-label
+{ color: #788698; }
+
+.new-header-style .top-header .top-nav li a,
+.new-header-style .top-header .top-nav li span,
+.new-header-style .top-header .top-nav li ul#change_language_header li,
+.new-header-style .top-header .top-nav li ul#currency_change li,
+.new-header-style .currency-opt .user-dd .note-cur,
+.new-header-style .dashboard-option-label
+{ font-family: "proxima_nova", Arial; font-size: 14px; font-weight: 100; }
+
+.new-header-style .top-header .lang-opt .lang-on
+{ position: static; display: inline-block; width: 44px; vertical-align: top;  }
+
+.new-header-style .currency-opt .user-dd .note-cur
+{ font-size: 12px; }
+
+.new-head-gray-bg .top-header .top-nav .shp-cart,
+.new-head-gray-bg .top-header .top-nav .shp-cart:hover,
+.new-head-gray-bg  .shp-cart .shp-cart-no
+{ background: none; border-radius: 0; }
+
+.new-head-gray-bg .top-header .top-nav .shp-cart
+{ padding: 7px 10px 0 10px; border-right: 0; }
+
+.new-head-gray-bg .shp-cart .shp-cart-no
+{ font-family: "proxima_nova", Arial; font-weight: 400; font-size: 11px; color: #3c3c3c; padding: 0; top:-8px; margin: 0 0 0 -9px; }
+
+.new-header-style .ic-top-set.ic-top-user
+{ background: url('/getImage.php?src=images/top-header-icons-sprite.png') no-repeat 0 0; height: 14px; width: 12px; }
+
+.new-header-style .ic-top-set.ic-shp-cart
+{ background: url('/getImage.php?src=images/top-header-icons-sprite.png') no-repeat -16px 0; height: 26px; margin-top: -8px; width: 37px; }
+
+.new-header-style .nav ul.navigation li.levelone > a, .new-header-style .nav ul.navigation li.first a
+{ font-family: "montserrat-regular", Arial; font-size: 15px; font-weight: normal; color:#fff; text-transform: uppercase;  }
+
+.new-header-style .nav ul.navigation li.levelone > a:hover,
+.new-header-style .nav ul.navigation li.first a:hover,
+.new-header-style .nav ul.navigation li.levelone:hover > a,
+.new-header-style .nav ul.navigation li.first:hover a
+{ color:#333; }
+
+.new-header-style .top-header .top-nav .currency-opt,
+.new-header-style .top-header .top-nav > li
+{ border-right:1px solid #dde3e9 }
+
+.new-header-style .nav li.levelone, .new-header-style .nav li.first
+{ background: none !important; }
+
+.new-header-style .top-header .lang-opt .lang-on { top:1px; height: 27px; }
+
+.new-header-style .lang-opt .user-dd, .new-header-style .currency-opt .user-dd { top:34px; }
+
+.new-header-style .lang-opt .user-dd { left: -64px; }
+
+.new-header-style .currency-opt .user-dd { left:-38px; }
+
+.new-header-style .top-header .lang-opt .ic-top-sdd,
+.new-header-style .top-header .lang-opt:hover .ic-top-sdd,
+.new-header-style .ic-top-dd
+{
+    background: none; width: 0;  height: 0;
+    border-left: 6px solid transparent;  border-right: 6px solid transparent;  border-top: 6px solid #bbb;
+    right:10px !important; top:13px !important;
+}
+
+.new-header-style .ic-top-dd { margin-left: 9px; }
+
+
+/* Unavoidable CSS changes */
+
+body { background-image: none; background-color: #fff; }
+
+.home-bg #page-footer { position: relative; }
+
+.top-header .lang-opt { width: 135px; }
+
+.top-header .top-nav .currency-opt { width: 115px; }
+
+
+/*  GAPPS link in footer */
+
+.oldprodname { font-size: 12px; display: block; }

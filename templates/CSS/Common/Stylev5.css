@@ -1,0 +1,1081 @@
+.home-bg #header-wrapper{ position:static;}
+#top-header{
+	position:absolute;
+	top:-1px;
+	left:0;
+	width:100%;
+	height:32px;
+	background:#fbfbf9;
+	}
+.top-reseller-menu{ float:left;}
+#page-header #branding {
+	margin-bottom: 14px;
+}
+.home-bg #page-header {
+	margin-top: 40px;
+	padding: 5px 0 20px;
+}
+/*.home-bg {
+	background: url("/getImage.php?src=bg-body.gif") repeat-x;
+}*/
+.home-bg #page-footer {
+	background: url("/getImage.php?src=bg-footer.jpg") repeat;
+}
+.top-header {
+	width: 1000px;
+	margin:0 auto;
+	height:33px;
+}
+.top-header .top-nav {
+	text-align: right;
+}
+.top-header .top-nav li ul li:hover, .reseller-opt li:hover {
+	background: #DADADA;
+}
+.top-header .top-nav li:hover, .reseller-opt:hover {
+	background: #ececec;
+}
+.top-header .top-nav li a {
+	color: #333;
+	display:inline-block;
+}
+.top-header .top-nav li {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #333;
+	display: inline-block;
+	padding: 8px 12px;
+	border-right: solid 1px #e5e5e3;
+	margin-right: -3px;
+	cursor: pointer;
+}
+.top-header .top-nav .shp-cart:hover {
+	background: #3e8ae8;
+}
+.top-header .top-nav .shp-cart {
+	background: #3e8ae8;
+	padding: 7px 19px;
+	border: none;
+}
+.shp-cart .shp-cart-no {
+	background: #ffc600;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	padding: 3px;
+	border-radius: 10px;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+	width: 13px;
+	height: 13px;
+	text-align: center;
+}
+.user-opt, .lang-opt, .currency-opt, .reseller-opt {
+	position: relative;
+	text-align: left;
+}
+.top-header .user-opt {
+	width: 155px;
+}
+.top-header .lang-opt {
+	width: 75px;
+}
+.top-header .top-nav li:hover .ic-top-sdd {
+	background: url(/getImage.php?src=dd-with-shadow-hover.png) no-repeat;
+	top: 4px;
+	right: -1px;
+}
+.top-header .lang-opt .ic-top-sdd {
+	background: url(/getImage.php?src=dd-with-shadow.png) no-repeat;
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	top: 6px;
+	right: 0px;
+}
+.top-header .lang-opt .lang-on {
+	position: absolute;
+	top: 9px;
+	left: 35px;
+	height: 15px;
+	overflow: hidden;
+}
+.top-header .top-nav .currency-opt {
+	width: 83px;
+	border: none;
+}
+.user-opt .user-dd, .lang-opt .user-dd, .currency-opt .user-dd, .reseller-opt .user-dd {
+	background: #ececec;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	z-index: 1001;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0 3px 3px #f3f3f3;
+}
+.user-opt .user-dd {
+	width: 175px;
+	display: none;
+}
+.user-opt:hover .user-dd {
+	display: block;
+}
+.lang-opt .user-dd {
+	width: 220px;
+	left: -120px;
+	display: none;
+}
+.reseller-opt .user-dd {
+	display: none;
+	width: 260px;
+}
+.lang-opt:hover .user-dd, .reseller-opt:hover .user-dd {
+	display: block;
+}
+.currency-opt .user-dd {
+	width: 174px;
+	left: -67px;
+	display: none;
+}
+.currency-opt:hover .user-dd {
+	display: block;
+}
+.currency-opt .user-dd li {
+	width: 36%;
+	float: left;
+}
+.currency-opt .user-dd .note-cur {
+	width: 150px;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #555;
+	border-radius: 0 0 5px 5px;
+	background: #dadada;
+}
+.top-header .user-dd li:last-child {
+	border: none;
+}
+.top-header .user-dd li {
+	text-align: left;
+	display: block;
+	margin: 0;
+	border-bottom: solid 1px #e2e2e2;
+	border-right: none;
+}
+.ic-top-set {
+	background: url(/getImage.php?src=menu-sprite.png) no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+}
+.ic-top-user {
+	width: 19px;
+	height: 18px;
+	background-position: -2px -311px;
+	margin-right: 5px;
+}
+.ic-top-email {
+	background-position: -57px -374px;
+	height: 15px;
+	margin-right: 5px;
+	width: 20px;
+}
+.ic-top-id {
+	background-position: -85px -375px;
+	height: 14px;
+	margin-right: 5px;
+	width: 20px;
+}
+.ic-top-logout {
+	width: 16px;
+	height: 17px;
+	background-position: -2px -332px;
+	margin-right: 5px;
+}
+.ic-top-dd {
+	width: 11px;
+	height: 5px;
+	background-position: -95px -290px;
+	margin-left: 4px;
+}
+.ic-shp-cart {
+	width: 28px;
+	height: 19px;
+	background-position: -49px -308px;
+	margin-right: -5px;
+}
+.ic-lang {
+	width: 17px;
+	height: 18px;
+	background-position: -24px -312px;
+	margin-right: 5px;
+}
+.ic-cur-usd {
+	width: 24px;
+	height: 18px;
+	background-position: -83px -309px;
+	margin-right: 5px;
+}
+.ic-cur-inr {
+	width: 24px;
+	height: 18px;
+	background-position: -53px -332px;
+	margin-right: 5px;
+}
+.ic-cur-rub {
+	width: 24px;
+	height: 18px;
+	background-position: -24px -332px;
+	margin-right: 5px;
+}
+.ic-cur-cny {
+	width: 24px;
+	height: 18px;
+	background-position: -1px -353px;
+	margin-right: 5px;
+}
+.ic-cur-try {
+	width: 24px;
+	height: 18px;
+	background-position: -84px -332px;
+	margin-right: 5px;
+}
+.ic-cur-gbp {
+	width: 24px;
+	height: 18px;
+	background-position: -29px -354px;
+	margin-right: 5px;
+}
+.ic-cur-cad {
+	width: 24px;
+	height: 18px;
+	background-position: -56px -354px;
+	margin-right: 5px;
+}
+.ic-cur-eur {
+	width: 24px;
+	height: 18px;
+	background-position: -84px -354px;
+	margin-right: 5px;
+}
+.ic-cur-aud {
+	width: 24px;
+	height: 18px;
+	background-position: -2px -374px;
+	margin-right: 5px;
+}
+.ic-cur-inr {
+	width: 24px;
+	height: 18px;
+	background-position: -53px -332px;
+	margin-right: 5px;
+}
+.ic-cur-nzd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Australian.png');
+	margin-right: 5px;
+}
+.ic-cur-jpy {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Japanese.png');
+	margin-right: 5px;
+}
+.ic-cur-afn {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Afghan.png');
+	margin-right: 5px;
+}
+.ic-cur-all {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Alabnian.png');
+	margin-right: 5px;
+}
+.ic-cur-dzd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Algerian.png');
+	margin-right: 5px;
+}
+.ic-cur-xcd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Angolan.png');
+	margin-right: 5px;
+}
+.ic-cur-ars {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Argentine.png');
+	margin-right: 5px;
+}
+.ic-cur-amd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Armenian.png');
+	margin-right: 5px;
+}
+.ic-cur-ang {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=NL-Antillian.png');
+	margin-right: 5px;
+}
+.ic-cur-azn {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Azerbaijan.png');
+	margin-right: 5px;
+}
+.ic-cur-bsd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Bahamian.png');
+	margin-right: 5px;
+}
+.ic-cur-bhd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Bahraini.png');
+	margin-right: 5px;
+}
+.ic-cur-bdt {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Bangladeshi.png');
+	margin-right: 5px;
+}
+.ic-cur-bbd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Barbados.png');
+	margin-right: 5px;
+}
+.ic-cur-byr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Belarusian.png');
+	margin-right: 5px;
+}
+.ic-cur-bzd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Belize.png');
+	margin-right: 5px;
+}
+.ic-cur-xof {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=CFAFranc.png');
+	margin-right: 5px;
+}
+.ic-cur-bob {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Bolivian.png');
+	margin-right: 5px;
+}
+.ic-cur-bwp {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Botswana.png');
+	margin-right: 5px;
+}
+.ic-cur-nok {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Norwegian.png');
+	margin-right: 5px;
+}
+.ic-cur-brl {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Brazilian.png');
+	margin-right: 5px;
+}
+.ic-cur-bnd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Brunei.png');
+	margin-right: 5px;
+}
+.ic-cur-bgn {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=.Bulgarianpng');
+	margin-right: 5px;
+}
+.ic-cur-bif {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Burundi.png');
+	margin-right: 5px;
+}
+.ic-cur-khr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Cambodian.png');
+	margin-right: 5px;
+}
+.ic-cur-xaf {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=CFAFranc.png');
+	margin-right: 5px;
+}
+.ic-cur-cve {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Cape-Verde.png');
+	margin-right: 5px;
+}
+.ic-cur-kyd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Cayman-Islands.png');
+	margin-right: 5px;
+}
+.ic-cur-clp {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Chilean.png');
+	margin-right: 5px;
+}
+.ic-cur-cop {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Colombian.png');
+	margin-right: 5px;
+}
+.ic-cur-kmf {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Comoros.png');
+	margin-right: 5px;
+}
+.ic-cur-cdf {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Congolese.png');
+	margin-right: 5px;
+}
+.ic-cur-crc {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Costa-Rican.png');
+	margin-right: 5px;
+}
+.ic-cur-hrk {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Croatian.png');
+	margin-right: 5px;
+}
+.ic-cur-czk {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Czech.png');
+	margin-right: 5px;
+}
+.ic-cur-dkk {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Danish.png');
+	margin-right: 5px;
+}
+.ic-cur-djf {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Djibouti.png');
+	margin-right: 5px;
+}
+.ic-cur-dop {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Dominican.png');
+	margin-right: 5px;
+}
+.ic-cur-idr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Indonesian.png');
+	margin-right: 5px;
+}
+.ic-cur-ecs {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Ecuador.png');
+	margin-right: 5px;
+}
+.ic-cur-egp {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Egyptian.png');
+	margin-right: 5px;
+}
+.ic-cur-etb {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Ethiopian.png');
+	margin-right: 5px;
+}
+.ic-cur-eek {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Estonian.png');
+	margin-right: 5px;
+}
+.ic-cur-fkp {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Falkland-Islands.png');
+	margin-right: 5px;
+}
+.ic-cur-fjd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Fiji.png');
+	margin-right: 5px;
+}
+.ic-cur-xpf {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=CFAFranc.png');
+	margin-right: 5px;
+}
+.ic-cur-gmd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Gambian.png');
+	margin-right: 5px;
+}
+.ic-cur-gel {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Georgian.png');
+	margin-right: 5px;
+}
+.ic-cur-gip {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Gibraltar.png');
+	margin-right: 5px;
+}
+.ic-cur-gtq {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Guatemalan.png');
+	margin-right: 5px;
+}
+.ic-cur-gyd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Guyanan.png');
+	margin-right: 5px;
+}
+.ic-cur-gnf {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Guinea.png');
+	margin-right: 5px;
+}
+.ic-cur-htg {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Haitian.png');
+	margin-right: 5px;
+}
+.ic-cur-hnl {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Honduran.png');
+	margin-right: 5px;
+}
+.ic-cur-huf {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Hungarian.png');
+	margin-right: 5px;
+}
+.ic-cur-isk {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Iceland.png');
+	margin-right: 5px;
+}
+.ic-cur-iqd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Iraq.png');
+	margin-right: 5px;
+}
+.ic-cur-jmd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Jamaican.png');
+	margin-right: 5px;
+}
+.ic-cur-jod {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Jordanian.png');
+	margin-right: 5px;
+}
+.ic-cur-kzt {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Kazakhstan.png');
+	margin-right: 5px;
+}
+.ic-cur-kes {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Kenyan.png');
+	margin-right: 5px;
+}
+.ic-cur-kpw {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Korean.png');
+	margin-right: 5px;
+}
+.ic-cur-krw {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Korean.png');
+	margin-right: 5px;
+}
+.ic-cur-kwd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Kuwaiti.png');
+	margin-right: 5px;
+}
+.ic-cur-kgs {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Kyrgyzstanian.png');
+	margin-right: 5px;
+}
+.ic-cur-lak {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Lao.png');
+	margin-right: 5px;
+}
+.ic-cur-lvl {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Latvian.png');
+	margin-right: 5px;
+}
+.ic-cur-lbp {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Lebanese.png');
+	margin-right: 5px;
+}
+.ic-cur-lsl {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Lesotho.png');
+	margin-right: 5px;
+}
+.ic-cur-lrd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Liberian.png');
+	margin-right: 5px;
+}
+.ic-cur-lyd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Libyan.png');
+	margin-right: 5px;
+}
+.ic-cur-chf {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Swiss.png');
+	margin-right: 5px;
+}
+.ic-cur-ltl {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Lithuanian.png');
+	margin-right: 5px;
+}
+.ic-cur-mop {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Macau.png');
+	margin-right: 5px;
+}
+.ic-cur-mkd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Macedonian.png');
+	margin-right: 5px;
+}
+.ic-cur-mwk {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Malawi.png');
+	margin-right: 5px;
+}
+.ic-cur-myr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Malaysian.png');
+	margin-right: 5px;
+}
+.ic-cur-mvr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Maldive.png');
+	margin-right: 5px;
+}
+.ic-cur-mro {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Mauritanian.png');
+	margin-right: 5px;
+}
+.ic-cur-mur {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Mauritius.png');
+	margin-right: 5px;
+}
+.ic-cur-mxn {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Mexican.png');
+	margin-right: 5px;
+}
+.ic-cur-mdl {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Moldovan.png');
+	margin-right: 5px;
+}
+.ic-cur-mnt {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Mongolian.png');
+	margin-right: 5px;
+}
+.ic-cur-mad {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Moroccan.png');
+	margin-right: 5px;
+}
+.ic-cur-mzn {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Mozambique.png');
+	margin-right: 5px;
+}
+.ic-cur-mmk {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Myanmar.png');
+	margin-right: 5px;
+}
+.ic-cur-nad {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Namibiaz.png');
+	margin-right: 5px;
+}
+.ic-cur-npr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Nepalese.png');
+	margin-right: 5px;
+}
+.ic-cur-nio {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Nicaraguan.png');
+	margin-right: 5px;
+}
+.ic-cur-ngn {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Nigerian.png');
+	margin-right: 5px;
+}
+.ic-cur-omr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Omani.png');
+	margin-right: 5px;
+}
+.ic-cur-pkr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Pakistan.png');
+	margin-right: 5px;
+}
+.ic-cur-pab {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Panamanian.png');
+	margin-right: 5px;
+}
+.ic-cur-pgk {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Papua-New-Guinea.png');
+	margin-right: 5px;
+}
+.ic-cur-pyg {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Paraguay.png');
+	margin-right: 5px;
+}
+.ic-cur-pen {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Peruvian.png');
+	margin-right: 5px;
+}
+.ic-cur-php {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Phillipine.png');
+	margin-right: 5px;
+}
+.ic-cur-pln {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Polish.png');
+	margin-right: 5px;
+}
+.ic-cur-qar {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Qatari.png');
+	margin-right: 5px;
+}
+.ic-cur-ron {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Romanian.png');
+	margin-right: 5px;
+}
+.ic-cur-rwf {
+	width: 24px;
+	height: 18px;
+	margin-right: 5px;
+}
+.ic-cur-std {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Sao-Tome.png');
+	margin-right: 5px;
+}
+.ic-cur-sar {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Saudi.png');
+	margin-right: 5px;
+}
+.ic-cur-scr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Seychelles.png');
+	margin-right: 5px;
+}
+.ic-cur-sll {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Sierra-Leone.png');
+	margin-right: 5px;
+}
+.ic-cur-sgd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Singapore.png');
+	margin-right: 5px;
+}
+.ic-cur-sbd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Solomon-Islands.png');
+	margin-right: 5px;
+}
+.ic-cur-sos {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Somali.png');
+	margin-right: 5px;
+}
+.ic-cur-zar {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=South-African.png');
+	margin-right: 5px;
+}
+.ic-cur-lkr {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Sri-Lanka.png');
+	margin-right: 5px;
+}
+.ic-cur-srd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Suriname.png');
+	margin-right: 5px;
+}
+.ic-cur-szl {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Swaziland.png');
+	margin-right: 5px;
+}
+.ic-cur-sek {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Swedish.png');
+	margin-right: 5px;
+}
+.ic-cur-twd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Taiwan.png');
+	margin-right: 5px;
+}
+.ic-cur-tzs {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Tanzanian.png');
+	margin-right: 5px;
+}
+.ic-cur-thb {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Thai.png');
+	margin-right: 5px;
+}
+.ic-cur-ttd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Trinidad.png');
+	margin-right: 5px;
+}
+.ic-cur-tnd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Tunisian.png');
+	margin-right: 5px;
+}
+.ic-cur-tmt {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Turkmenistan.png');
+	margin-right: 5px;
+}
+.ic-cur-ugx {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Uganda.png');
+	margin-right: 5px;
+}
+.ic-cur-uah {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Ukraine.png');
+	margin-right: 5px;
+}
+.ic-cur-aed {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Utd.-Arab-Emir.png');
+	margin-right: 5px;
+}
+.ic-cur-uyu {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Uruguayan.png');
+	margin-right: 5px;
+}
+.ic-cur-vuv {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Vanuatu.png');
+	margin-right: 5px;
+}
+.ic-cur-vef {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Venezuelan.png');
+	margin-right: 5px;
+}
+.ic-cur-vnd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Vietnamese.png');
+	margin-right: 5px;
+}
+.ic-cur-yer {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Yemen.png');
+	margin-right: 5px;
+}
+.ic-cur-zmk {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Zambian.png');
+	margin-right: 3px;
+}
+.ic-cur-zwd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Zimbabwe.png');
+	margin-right: 3px;
+}
+.ic-cur-rsd {
+	width: 24px;
+	height: 18px;
+	background-image: url('/getImage.php?src=Serbian.png');
+	margin-right: 5px;
+}
+.modal_content .server_loc_tabs {
+	background: #fff;
+	position: static;
+	border: none;
+	margin-top: 20px;
+}
+.cart-userinfo-bar .tooltip {
+	display: inline-block;
+	vertical-align: baseline;
+}
+.reseller-opt {
+	float: left;
+	width: 155px;
+	padding: 9px;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #333;
+	cursor: pointer;
+}
+.top-nav {
+	float: right;
+}
+.reseller-opt .user-dd li {
+	padding: 8px 12px;
+}
+.pl-title small{
+    font-size: 14px;
+    color: #3e8ae8;
+}
+
+/* Paid pre registration addition */
+
+.SetRowMinHeight{ min-height: 70px; }
+
+.cart-item-note  { position:relative; top:5px; }

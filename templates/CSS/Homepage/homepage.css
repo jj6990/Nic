@@ -1,0 +1,616 @@
+#homepage-content {padding:0 0 25px; border-bottom:solid 1px #ededed;}
+#homepage-content a {color: #929292; text-decoration: underline;}
+#homepage-content .blue{color:#3E8AE8; text-decoration:none;}
+#homepage-content h1, #homepage-content h2, #homepage-content h3, #homepage-content h4, #homepage-content h5, #homepage-content h6 {
+	font-weight: normal; margin:3px 0; padding: 0px; color: #5b5b5b; background: none;}
+#getonline {
+	background:url("/getImage.php?src=homepage-sprite.jpg") no-repeat scroll 200px 0 transparent; height:63px; margin:0 auto;
+	text-align:left; width:100%; text-indent:-9999em;}
+.orange {color:#ee7214;}
+.green {color:#749707;}
+.italic {font-style:italic;}
+#homepage-content, #homepage-content h3 {color:#636363;}
+#homepage-content #region-top h1,  #homepage-content #region-center h1 {font-size: 40px; font-weight:bold; text-shadow:0 2px 0 #CCCCCC;}
+.domain-submit-disabled {background-position: -83px -142px; font-size:32px;}
+.space-right {float:left; width:50px;}
+.blocks h4 {font-size: 16px;}
+.free-list {width: 350px;}
+.free-list ul {width: 300px;}
+.free-list ul li {background:url("/getImage.php?src=frontpage-icons.gif") no-repeat scroll 0 -3px transparent; font-size: 16px; padding:8px 0 8px 50px;}
+.free-list ul li.privacy {background:url("/getImage.php?src=frontpage-icons.gif") no-repeat scroll 0 -38px transparent;}
+.free-list ul li.support {background:url("/getImage.php?src=frontpage-icons.gif") no-repeat scroll 0 -71px transparent;}
+/* --------- TLD Price List ---------  */
+
+.oldprice {color:#A7A7A7; line-height:20px;}
+.currentprice {font:normal 15px/18px Arial, Helvetica, sans-serif; margin-top:3px;}
+.currentprice .currencySymbol {font:normal 15px Arial, Helvetica, sans-serif;}
+.strikeout {font:normal 13px Arial, Helvetica, sans-serif; text-decoration:line-through;}
+.t1 {font-size: 16px; line-height:20px;}
+.t2 {font-size: 12px; line-height:18px;}
+.quick-easy .t1 {font-weight: bold;}
+.quick-easy .t3 {font-size: 13px; margin-bottom:5px;}
+.narrow-right-column .view-plan {float:left; height:140px; margin-top:10px; width:140px;}
+.narrow-right-column .image {background: url("/getImage.php?src=homepage-sprite.jpg") no-repeat scroll -40px -85px transparent; height: 130px; margin-top: 0; width: 100%;}
+.narrow-right-column .ui-button, #region-center .ui-button {margin-top:70px; text-align:center; width:140px;}
+#homepage-content .ui-button a {color: #FFFFFF; text-decoration: none;}
+.email-blurb ul {margin-top:5px; padding-left:0; margin-left: 0px; width:200px;}
+.email-blurb ul li {
+	background:url("/getImage.php?src=grey-sign-bullet.png") no-repeat scroll left 4px transparent;
+	_background:url("/getImage.php?src=homepage-sprite.jpg") no-repeat scroll -350px -291px transparent;
+	color:#666; font-size:12px; padding:4px 0 3px 20px;}
+#region-center {background:url("/getImage.php?src=Homepage-region-center-bg.gif") repeat-x scroll 0px 0px transparent; border-top:1px solid #E4E4E4;}
+#region-center .t2 {font-size:16px; font-weight:bold; margin-bottom:0; padding-left:0px;}
+#region-center .email-blurb {float: left;}
+#homepage-content #region-center .view-plan {float:left; height:140px; margin:0 15px 0 20px; width:140px;}
+#homepage-content .view-plan .text {margin-left: 10px; position: relative;}
+#homepage-content .view-plan .text .rs {font-size:18px; line-height:28px; top:15px; left:-2px;}
+#homepage-content .view-plan .text .price {font-size: 36px; left: 43px; line-height: 48px; text-align: left; width: 70px;}
+#homepage-content .view-plan .text .sign {font-size:24px; font-weight:normal; left:97px; line-height:48px; top:8px;}
+#homepage-content .view-plan .text .per-month {left:43px; top:40px; font-size:12px; line-height: 12xp; width: 70px;}
+#homepage-content #domainsPromoBlurb .text .per-month {width:140px; left:0; font-size:11px; top:44px;}
+#homepage-content #region-top .narrow-right-column .view-plan .text { float: none; height: 60px; margin: 0 0 0 0; position: relative; width: 140px;}
+#homepage-content #region-top .narrow-right-column .view-plan {float: left; height: 80px; margin-top: 10px; width:300px; position:relative;}
+#homepage-content #region-top a.ui-button {position:absolute; right:0; top:10px; margin:0;}
+#homepage-content .wide-left-column .server {
+	background:url("/getImage.php?src=home-get-hosting.png") no-repeat scroll left top transparent;
+	_background:url("/getImage.php?src=homepage-sprite.jpg") no-repeat scroll -395px -92px transparent;
+	float:left;height:184px; width:165px; margin-top:-50px;}
+#homepage-content #region-center .narrow-right-column {height:275px; margin-top:10px; padding-top:0; width:345px;}
+#homepage-content #region-center .narrow-right-column .banner {margin-left:10px; margin-right:35px; text-align:center;}
+#homepage-content #region-center .narrow-right-column .banner ul#banner-slider {margin:0px; padding:0px; width:305px; height:255px; overflow:hidden;}
+#homepage-content #region-center .narrow-right-column .banner ul#banner-slider li {	display:none;}
+#homepage-content #region-center .narrow-right-column .banner ul#banner-slider li.current {display:block;}
+#homepage-content #region-center .narrow-right-column .banner ul#banner-pagination {height: 14px; width:100px; margin: 3px auto 0; overflow: hidden; padding: 0;}
+#homepage-content #region-center .narrow-right-column .banner ul#banner-pagination li,  #homepage-content #region-center .narrow-right-column .banner ul#banner-pagination li a {
+	display:block; float:left; width:14px; height:14px; overflow:hidden; margin:0 2px;}
+#homepage-content #region-center .narrow-right-column .banner ul#banner-pagination li a {
+	background:url("/getImage.php?src=homepage-sprite.jpg") no-repeat scroll -322px -737px transparent;
+	text-decoration:none; text-indent:999px; margin:0;}
+ul#banner-pagination li a img {	border:none;}
+#homepage-content #region-center .narrow-right-column .banner ul#banner-pagination li a.current {background:url("/getImage.php?src=homepage-sprite.jpg") no-repeat scroll -304px -737px transparent;}
+#homepage-content #trust {text-align:center; background:url("/getImage.php?src=hompage-header-line.gif") no-repeat scroll center 14px transparent; margin:0;font-size:18px;}
+#homepage-content #trust a {text-decoration:none;color:#5B5B5B;}
+#trust span {background:none repeat scroll 0 0 #FFFFFF; padding:0 10px; color:#7C7C7C;}
+#region-top {margin-bottom:20px; margin-top:15px;}
+#homepage-content #region-top { margin:0;}
+#region-bottom {margin-bottom: 15px; border-top:1px solid #E4E4E4;}
+#region-bottom .clients {background:url("/getImage.php?src=homepage-sprite.jpg") no-repeat scroll -8px -474px transparent; height:175px; margin-top:10px;width:550px;}
+#region-bottom .ui-title {font-size:24px;}
+#region-bottom h3 {font-size:15px; margin-top:5px;}
+#region-bottom .facebook {font-size: 11px; font-weight:bold; margin: 0;}
+#region-bottom .facebook p {margin:5px 0; padding-left:5px;}
+#region-bottom .facebook .facebook-icon,  #region-bottom .twitter .twitter-icon,  #region-bottom .website-builder .icon {float: left;}
+#region-bottom .twitter .t1 {font-size:13px; line-height:14px; margin-bottom:5px; margin-left:65px; padding-top:5px;}
+#region-bottom .twitter .t1 a {color: #888;}
+#region-bottom .twitter .t2 {font-size: 11px; line-height: 13px; margin-left:0px;clear:left;}
+#region-bottom .twitter .t2 a {color:#ee7214; text-decoration: underline;}
+#region-bottom .facebook .friends {margin-left:55px;}
+#region-bottom .narrow-right-column {width:350px; padding-top:0;}
+#region-bottom .website-builder .feed_title {font-size: 12px; line-height: 20px;}
+#region-bottom .website-builder .feed_title a {color:#ee7214; text-decoration: underline;}
+#region-bottom .website-builder .feed_desc {font-size: 12px; line-height: 18px;}
+#region-bottom .website-builder .date {font-size: 10px; line-height: 12px;}
+#region-bottom .facebook,  #region-bottom .twitter {border-bottom:1px solid #BAC5D7;padding:12px 0;}
+#region-bottom .website-builder {padding:10px 0;}
+.like {clear: both;}
+.like .icon {background:url("/getImage.php?src=homepage-sprite.jpg") no-repeat scroll -347px -354px transparent; float:left; height:24px; width:51px;}
+.like .text {background:url("/getImage.php?src=homepage-sprite.jpg") no-repeat scroll -344px -325px transparent; float:left; padding:4px 0 4px 23px;}
+#homepage-content #region-top .domain-names .title {font-size:16px; font-weight:bold; color:#919191;}
+.domain_pricing_link {position:absolute; bottom:0; right:0; margin:0; padding:0; font-size: 11px; font-weight: bold; text-align: left; color: #929292;}
+#homepage-content a.ui-button {text-decoration: none; color: #FFFFFF;}
+#region-top .wide-left-column .blocks .links {position:relative; width:530px;}
+.brd-fix {opacity:0; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); zoom: 1;}
+#homepageAds {margin-top:15px;}
+#homepageAds a {background: url("/getImage.php?src=bg_tv.gif") no-repeat scroll 0 0 transparent; display: block; height: 142px; margin: 11px 0 0; width: 322px;}
+html>body #homepageAds a {background: url("/getImage.php?src=bg_tv.png") no-repeat scroll 0 0 transparent;}
+.customer-speaks-wrp {margin: 0 0 0 66px;}
+.customer-speaks-blurb {background: url("/getImage.php?src=bg-customer-speaks-blurb-home.gif") no-repeat scroll 0 0 transparent;}
+#homepage-content .customer-speaks h5 {color: #656565; font-weight: bold;}
+#region-bottom .customer-speaks .ui-title {	font-size:16px;}
+#homepage-content .ui-heading {	font:bold 35px 'Rokkitt', serif; color:#5b5b5b;}
+
+
+
+
+                                            /* Homepage Revamp - Styling Begins  */
+
+/* Common styles */
+
+.green-submit-button
+{ background:#2fbe15; border:1px solid #18900b;
+    font-size:20px; font-weight:100; font-family:"proxima_nova", Arial; color:#fff;
+    padding:0; line-height:20px;  cursor:pointer;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    outline : none;
+}
+.green-submit-button:hover { background: #34c918 }
+
+.green-submit-button:active { background:#2db315 }
+
+.inline-block { display: inline-block; *display: inline; *position: relative; zoom: 1; }
+
+.block { display: block; }
+
+.rfloat { float: right; }
+
+.lfloat { float: left; }
+
+/* Containers */
+
+.new-homepage-wrapper,
+.hosting-homepage-banner,
+.new-homepage-wrapper-dark-banner,
+.hosting-homepage-dark-banner
+{ background: url('/getImage.php?src=images/new-homepage-banner.png') #fff repeat-x center -15px; width: 100%; margin: -20px 0 0 0; }
+
+.new-homepage-wrapper.add-top-space
+{  background: #fff url("/getImage.php?src=images/new-homepage-banner.png") repeat-x center 145px }
+
+
+.new-homepage-wrapper-dark-banner,
+.new-homepage-wrapper-dark-banner.domain-focused-homepage
+{ background: url('/getImage.php?src=images/homepage-banner-2.jpg') repeat-x; margin: -22px 0 0 0; }
+
+.new-homepage-wrapper-dark-banner.add-top-space
+{ background: url('/getImage.php?src=images/homepage-banner-2.jpg') repeat-x 0 172px; margin: -19px 0 0 }
+
+
+.new-homepage-wrapper-dark-banner .homepage-banner h1,
+.new-homepage-wrapper-dark-banner .homepage-banner span.subtext,
+.new-homepage-wrapper-dark-banner .homepage-banner a
+{ color:#fff !important; }
+
+
+.homepage-container, .homepage-banner, .homepage-products, .hosting-homepage-banner-content { width: 1000px; margin: 0 auto; }
+
+.banner-shadow, .domains-banner-shadow
+{
+  box-shadow:1px 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.2);
+  width:100%; height: 0; border-bottom:1px solid #dfdfdf;
+  position: absolute;  top:633px; left:0; right: 0;
+}
+
+.new-homepage-wrapper.add-top-space .banner-shadow
+{ top: 838px; }
+
+.new-homepage-wrapper-dark-banner.add-top-space .banner-shadow
+{ top:812px; }
+
+/* Banner */
+
+.homepage-banner { padding: 70px 0 66px 0; position: relative; }
+
+.homepage-banner-lhs { float: left; width: 530px; }
+
+.homepage-banner-rhs { float: right; padding: 0 0 0 110px; width: 355px; }
+
+.new-homepage-wrapper-dark-banner.add-top-space .homepage-banner-rhs,
+.new-homepage-wrapper.add-top-space .homepage-banner-rhs
+{ padding: 0 0 0 130px; width: 300px; }
+
+.homepage-banner-lhs.content-centered { float: none; margin: 0 auto; text-align: center; width: 630px; }
+
+.homepage-new-gtld-link
+{ background: url('/getImage.php?src=images/hp-new-gtld-link.png') no-repeat; display: block;
+  position: absolute; top:0; right: -23px; height: 37px; width: 148px; text-align: center; padding: 48px 0 0 0;
+  color:#fff; font-family: "proxima_nova", Arial; font-size: 12px; font-weight: 100; text-decoration: underline; }
+
+.new-homepage-wrapper.add-top-space .homepage-new-gtld-link,
+.new-homepage-wrapper-dark-banner.add-top-space .homepage-new-gtld-link
+{ right:0; top:-195px; }
+
+.homepage-banner h1, .homepage-content h1, .hosting-homepage-banner-content h1, .domain-hp-content h1, .domain-hp-free-addons h1
+{ color:#000; font-family: "montserrat-bold", Arial; font-size: 32px; font-weight: normal; line-height: 21px;
+  margin: 0; padding: 0 0 14px 0; }
+
+.homepage-banner .homepage-banner-rhs h1
+{ background: url('/getImage.php?src=images/hp-new-icon.png') no-repeat 203px 3px;  }
+
+.homepage-banner span.subtext, .homepage-content span.subtext, .hosting-homepage-banner-content .subtext, .hosting-homepage-banner-content ul li, .domain-hp-content .subtext, .domain-hp-free-addons .subtext
+{ color:#000; font-family: "proxima_nova", Arial; font-size: 15px; font-weight: 100; }
+
+.search-domain-bar { position: relative; }
+
+.search-domain-bar .homepage-new-gtld-link { right: 145px; }
+
+.homepage-banner form { margin: 14px 0 0 0; }
+
+.homepage-banner input[type="text"], .search-domain-bar input[type="text"]
+{ border: 1px solid #dbdbdb; height: 60px; width: 416px; line-height: 60px; padding: 0 0 0 15px;
+  color:#242525; font-family: "proxima_nova", Arial; font-size: 20px; font-weight: 100;
+  border-radius: 4px 0 0 4px; -webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px;
+}
+
+.homepage-banner .content-centered input[type="text"] { width: 516px; }
+
+.homepage-banner .green-submit-button, .search-domain-bar .green-submit-button
+{ border-radius: 0 4px 4px 0; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0;
+  margin: 0 0 0 -4px; padding: 21px 0 18.8px 0; vertical-align: top; width: 101px; }
+
+
+.homepage-banner .validation-error .green-submit-button, .homepage-banner .validation-error input[type="text"],
+.search-domain-bar .validation-error .green-submit-button, .search-domain-bar .validation-error input[type="text"]
+{ border: 1px solid #d84a49; }
+
+.homepage-banner .validation-error .green-submit-button,
+.search-domain-bar .validation-error .green-submit-button
+{ border-left:0  }
+
+.homepage-banner .validation-error input[type="text"],
+.search-domain-bar .validation-error input[type="text"]
+{ border-right: 0; }
+
+.homepage-banner .validation-error-message
+{ display: none; }
+
+.homepage-banner .validation-error .validation-error-message, .search-domain-bar .validation-error .validation-error-message
+{ color: #d84a49; font-family: "proxima_nova", Arial; font-size: 15px; font-weight: 100; display: block; }
+
+.homepage-banner .validation-error .validation-error-message
+{ margin: 5px 0 0 0; }
+
+.promoblurb-container { position: relative; }
+
+.promoblurb-arrow
+{ background: url('/getImage.php?src=images/promoblurb-arrow.png') no-repeat; position: absolute; top:-12px; left:28px; height: 13px; width: 26px; }
+
+.homepage-banner .tlds-on-promo
+{ background: #fff; border-top: 1px solid #dcdcdc; margin: 25px 0 0 0; width: 525px; font-size: 0; padding: 10px 0;
+  border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+
+.homepage-banner ul.tlds-on-promo {
+    width: 100%;
+    display: table;
+    table-layout: fixed; /* optional */
+}
+
+.homepage-banner ul.tlds-on-promo li {
+    display: table-cell;
+    width: auto;
+    text-align: center;
+    border-right: 1px solid #dcdcdc; padding: 11px 0 9px 0;
+}
+
+.homepage-banner .tlds-on-promo li:last-child { border-right: 0; }
+
+.homepage-banner .tlds-on-promo li span { display: block; }
+
+.homepage-banner .tlds-on-promo li span.WebRupee {display: inline; }
+
+.homepage-banner .tlds-on-promo li span.tld-name
+{ color:#242525;  font-family: "montserrat-bold", Arial; font-size: 22px; font-weight: normal; margin: 0 0 8px 0; text-transform: lowercase;  }
+
+.homepage-banner .tlds-on-promo li span.tld-original-price,
+.domain-hp-content .lowest-price-tlds-list li span.original-price
+{ color: #c0392b;  font-family: "proxima_nova", Arial; font-size: 14px; font-weight: 100; text-decoration: line-through;
+  margin: 0 0 2px 0;  }
+
+.homepage-banner .tlds-on-promo li span.tld-discount-price,
+.domain-hp-content .lowest-price-tlds-list li span.discounted-price
+{ color:#242525; font-family: "proxima_nova", Arial; font-size: 15px; font-weight: 400; }
+
+.homepage-banner a.view-pricing,
+.homepage-banner a.view-pricing:hover,
+.domain-hp-content a.more-tlds,
+.domain-hp-content a.more-tlds:hover
+{ color: #2385e8;   font-family: "proxima_nova", Arial; font-size: 15px; font-weight: 100; text-decoration: underline; margin: 12px 0 0 0; }
+
+.advertisement-blurb
+{ cursor:pointer; margin: 10px 0 0 0;  }
+
+
+/* Page content  */
+
+.online-business-icon
+{ background: url('/getImage.php?src=images/online-business-icon.png') no-repeat; height: 51px; margin: 0 auto 15px auto; width: 81px; display: block; }
+
+.homepage-content { margin: 66px auto 30px auto;  }
+
+.homepage-content.reduce-top-space { margin: 194px auto 30px auto; }
+
+.homepage-content h1, .homepage-content span.subtext { display: block; text-align: center; }
+
+.homepage-product-details
+{ border:1px solid #eee; display: inline-block; *display: inline; *position: relative; zoom: 1; margin: 0 15px 0 0; vertical-align: top; text-align: center; width: 234px; }
+
+.homepage-products { margin: 40px auto 0 auto; text-align: center; }
+
+.homepage-products div.hp-no-margin { margin: 0; }
+
+.highlight-block { padding: 0; }
+
+#hp-web-hosting .highlight-block { background: #575ca6; }
+
+#hp-reseller-hosting .highlight-block  { background: #2aba9b; }
+
+#hp-ssl-certificate .highlight-block  { background: #f9935b;  }
+
+#hp-website-builder .highlight-block  { background: #ca3051; }
+
+#hp-web-hosting .white-block,
+#hp-reseller-hosting .white-block,
+#hp-ssl-certificate .white-block,
+#hp-website-builder .white-block  { background: #fff; }
+
+.homepage-product-details h2
+{ font-family: "montserrat-bold", Arial; font-size: 23px; font-weight: normal; margin: 0; padding: 25px 0 0 0; }
+
+.homepage-product-details .white-block h2
+{ color:#333; }
+
+.homepage-product-details .highlight-block  h2
+{ color:#fff; }
+
+.homepage-product-details span.product-tagline
+{ font-family: "proxima_nova", Arial; font-size: 15px; font-weight: 100; display: block; padding: 1px 0 30px 0; }
+
+.homepage-product-details .white-block span.product-tagline
+{ color:#333; }
+
+.homepage-product-details .highlight-block span.product-tagline
+{ color:#fff; }
+
+.homepage-product-details .green-submit-button, .hosting-homepage-banner-content .green-submit-button
+{ font-size: 16px; margin: 32px auto 30px auto; padding: 11px 40px; display: block;
+  border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+
+.homepage-product-details ul
+{ margin: 29px auto 0 auto; }
+
+.homepage-product-details#hp-web-hosting ul
+{ width: 195px; }
+
+.homepage-product-details#hp-reseller-hosting ul
+{ width: 188px; }
+
+.homepage-product-details#hp-ssl-certificate ul
+{ width: 180px; }
+
+.homepage-product-details#hp-website-builder ul
+{ width: 215px; }
+
+.homepage-product-details li
+{ background: url('/getImage.php?src=images/hp-bullet-point.png') no-repeat 0 10px; color:#000; display: block; font-family: "proxima_nova", Arial; font-size: 15px; font-weight: 100;
+  padding: 7px 0 0 20px; text-align: left; }
+
+.homepage-pricing { display: block; margin: 35px 0 0 0; }
+
+.homepage-product-details span.start-at
+{ color:#333; font-family: "proxima_nova", Arial; font-size: 14px; font-weight: 100; display: block; text-align: center;  }
+
+.homepage-product-details span.price-symbol,
+.homepage-product-details span.price-value,
+.hosting-plans-price .homepage-pricing span.price-symbol,
+.hosting-plans-price .homepage-pricing span.price-value
+{ display: inline-block; }
+
+
+.homepage-product-details span.price-value, .hosting-plans-price .homepage-pricing span.price-value
+{ color: #2fbe15; font-family: "montserrat-bold", Arial; font-size: 40px; font-weight: normal; line-height: 44px; margin: 0 0 -4px 3px;  }
+
+.homepage-product-details span.price-symbol, .hosting-plans-price .homepage-pricing span.price-symbol
+{ color: #2fbe15; font-family: "montserrat-bold", Arial; font-size: 20px; font-weight: normal; margin: 2px 0 0 0; vertical-align: top;  }
+
+.homepage-product-details span.price-per, .hosting-plans-price .homepage-pricing span.price-per
+{ color: #2fbe15; font-family: "montserrat-regular", Arial; font-size: 14px; font-weight: normal; display: inline-block;
+  width: 100%; margin: -3px 0 0 0; padding: 0; text-align: center;  }
+
+.homepage-product-details .product-icon
+{ background: url('/getImage.php?src=images/hp-product-icons-sprite.png') no-repeat 0 0; height: 132px; margin-bottom:-3px;  }
+
+.homepage-product-details .highlight-block .product-icon
+{ height: 94px; }
+
+#hp-web-hosting .product-icon { background-position: 0 0; width: 101px; }
+
+#hp-reseller-hosting .product-icon { background-position: -241px 0; width: 130px; }
+
+#hp-ssl-certificate .product-icon { background-position: -496px 0; width: 135px; }
+
+#hp-website-builder .product-icon { background-position: -635px 0; width: 157px; }
+
+
+/* Hosting focused */
+
+
+.hosting-homepage-banner,
+.hosting-homepage-dark-banner
+{ background: url('/getImage.php?src=images/hosting-homepage-banner.png') #fff repeat-x top; padding: 70px 0 0 0;  }
+
+.hosting-homepage-dark-banner
+{ background: url('/getImage.php?src=images/homepage-hosting-banner-2.jpg') repeat-x 0 0 #222a30; padding: 63px 0 0 0; }
+
+.hosting-homepage-banner-content { text-align: center; }
+
+.hosting-homepage-banner-content ul { margin: 20px 0 0 0; }
+
+.hosting-homepage-banner-content ul li
+{ background: url('/getImage.php?src=images/hosting-home-bullet.png') no-repeat 0 3px;  display: inline-block; margin: 0 0 5px 26px; padding: 0 0 0 21px; }
+
+.hosting-homepage-banner-content  .green-submit-button { margin: 24px auto 0 auto; }
+
+.hosting-plans-price { position: relative; }
+
+.hosting-homepage-banner .hosting-plan-icon,
+.hosting-homepage-dark-banner .hosting-plan-icon
+{ background: url('/getImage.php?src=images/hosting-homepage-plans.png') no-repeat; height: 192px; width: 585px; margin: 0 auto; }
+
+.hosting-homepage-dark-banner .hosting-plan-icon
+{ background: url('/getImage.php?src=images/hosting-homepage-plans-dark.png') no-repeat; }
+
+.hosting-plans-price .homepage-pricing
+{ position: absolute; left: 96px; top: 0; margin: 0; width: 153px; text-align: left; }
+
+.hosting-plans-price .homepage-pricing span.start-at
+{ font-family: "proxima_nova", Arial; font-size: 15px; font-weight: 100; color:#000; }
+
+.hosting-plans-price .homepage-pricing span.price-per
+{ padding: 0 0 0 45px; width: 195px; text-align: left; }
+
+.hosting-homepage-banner .web-hosting-supports,
+.hosting-homepage-dark-banner .web-hosting-supports
+{ background:url('/getImage.php?src=images/web-hosting-supports.png') no-repeat #f8f8f8 center center; height: 55px; }
+
+.search-domain-bar { background: #f8f8f8; text-align: center; margin: 0 0 -50px 0; padding: 20px 0; width: 100%; }
+
+.search-domain-bar .validation-error-message
+{ display: none; }
+
+.search-domain-bar .validation-error .validation-error-message
+{ margin: 5px auto 0 245px; width: 475px;  }
+
+.hosting-homepage-container .homepage-products { margin: 40px auto 80px auto; }
+
+.hosting-homepage-dark-banner h1,
+.hosting-homepage-dark-banner span.subtext,
+.hosting-homepage-dark-banner ul li,
+.hosting-homepage-dark-banner span.start-at
+{ color:#fff !important; }
+
+
+
+/* Domain focused */
+
+.domain-homepage-banner { text-align: center; width: 100%; padding: 123px 0 0 0;  }
+
+.domains-homepage-container .homepage-new-gtld-link { right: 100px; }
+
+.domains-homepage-container form input[type="text"]{  width: 620px; }
+
+.domains-homepage-container form input[type="text"]
+{
+    box-shadow: 0 0 4px rgba(27,27,27,0.2);
+    -moz-box-shadow: 0 0 4px rgba(27,27,27,0.2);
+    -webkit-box-shadow: 0 0 4px rgba(27,27,27,0.2);
+    -o-box-shadow: 0 0 4px rgba(27,27,27,0.2);
+}
+
+.domains-homepage-container form .green-submit-button
+{
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+
+}
+
+.domain-homepage-banner .validation-error-message { width: 685px; text-align: left;  margin:5px 0 0 130px !important; }
+
+.domains-homepage-container .homepage-banner { height:440px; padding: 0; }
+
+.domains-homepage-container .banner-shadow { top:636px; }
+
+.new-homepage-wrapper.domain-focused-homepage
+{ background: url('/getImage.php?src=images/new-homepage-banner.png') #fff repeat-x center -12px; }
+
+.domains-banner-shadow
+{
+    -webkit-box-shadow: 0 5px 4px -4px #cbcbcb;
+    -moz-box-shadow: 0 5px 4px -4px #cbcbcb;
+    box-shadow: 0 5px 4px -4px #cbcbcb;
+    height: auto; border: 0; top:636px;
+}
+
+.domain-hp-tld-list
+{ background: url('/getImage.php?src=images/domain-focus-home-tlds.png') #fbfbfb no-repeat center center; padding: 15px 0 20px 0; height: 31px; width: 100%;  }
+
+.domain-hp-content { margin: 123px auto 0 auto; width: 1000px; }
+
+.domain-hp-content h1, .domain-hp-content .subtext, .domain-hp-content .lowest-price-tlds-list,
+.domain-hp-free-addons, .domain-hp-free-addons h1, .domain-hp-free-addons .subtext
+{ text-align: center; }
+
+.domain-hp-content .lowest-price-tlds-list { margin-top: 25px; }
+
+.domain-hp-content .lowest-price-tlds-list li
+{ padding: 30px 0; margin: 0 0 0 25px; border:1px solid #dcdcdc; text-align: center; vertical-align: top; width: 175px;
+  border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+
+.domain-hp-content .lowest-price-tlds-list li:first-child
+{ margin: 0; }
+
+.domain-hp-content .lowest-price-tlds-list li span.tld-name
+{ font-family: "montserrat-bold", Arial; font-size: 23px; font-weight: normal; color: #242525; display: block; text-transform: lowercase; }
+
+.domain-hp-content .lowest-price-tlds-list li span.discounted-price,
+.domain-hp-content .lowest-price-tlds-list li span.original-price
+{ margin-top: 5px; display: block; }
+
+.domain-hp-content .lowest-price-tlds-list li span.discounted-price.rfloat { margin-right: 25px; }
+
+.domain-hp-content .lowest-price-tlds-list li span.original-price.lfloat { margin-left: 25px; }
+
+.domain-hp-free-addons
+{ background:#fbfbfb; margin: 75px 0 -50px 0; padding: 50px 0 23px 0; }
+
+.domain-hp-free-addons ul { margin: 25px auto 0; width: 1000px; }
+
+.domain-hp-free-addons ul li
+{ font-family: "proxima_nova", Arial; font-size: 20px; font-weight:600; color: #000; vertical-align: top; margin: 0 0 27px 50px;  }
+
+.domain-hp-free-addons ul li:first-child,
+.domain-hp-free-addons ul li:nth-child(5)
+{ margin-left: 0; }
+
+.addon-icon { background: url('/getImage.php?src=images/domains-free-addons.png'); vertical-align: middle; margin: 0 10px 0 0; }
+
+.addon-icon#free-email { background-position: 0 -3px; height: 30px; width: 30px; }
+
+.addon-icon#bulk-tools { background-position: -35px -2px; height: 32px ; width: 32px; }
+
+.addon-icon#dns-manage { background-position: -78px 0; height: 33px; width: 32px; }
+
+.addon-icon#control-panel { background-position:-125px 0; height: 28px; width:29px ; }
+
+.addon-icon#theft-protection { background-position:0 -61px; height: 31px; width: 36px; }
+
+.addon-icon#domain-fwd { background-position: -39px -61px; height: 31px; width: 39px; }
+
+.addon-icon#mail-fwd { background-position: -86px -61px; height: 31px; width: 40px; }
+
+.domain-hp-content a.more-tlds, .domain-hp-content a.more-tlds:hover { text-decoration: underline; margin-right: 105px; }
+
+.domain-hp-content h1, .domain-hp-free-addons h1 { padding-bottom: 0; }
+
+/* Cloud Hosting Banner text*/
+.ch-banner-text {
+    position: absolute;
+    top: 135px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #ffffff;
+    right: 47px;
+}
+.ch-banner-text .hl {
+    color: #efdc72;
+}
+.homepage-banner-rhs-ch {
+    float: right;
+}
+.homepage-banner-rhs-ch h1{
+    background: url('/getImage.php?src=images/hp-new-icon.png') no-repeat 203px 3px;
+}
+
+.ch-green-button {
+    background: #2fbe15;
+    color: #fff;
+    font-family: 'montserrat-regular', Arial;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 6px 10px;
+    position: absolute;
+    right: 97px;
+    top: 30px;
+}
+.ch-green-button:hover {
+    color: #ffffff;
+}

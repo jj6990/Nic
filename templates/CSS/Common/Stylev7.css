@@ -1,0 +1,627 @@
+/* Homepage - Bundles blurb */
+
+.bundles-hp-blurb
+{ width: 100%; background: #fff; padding: 0; }
+
+.bundles-hp-blurb-text
+{  padding: 15px 30px; position: relative; width: 940px; }
+
+.bundles-hp-blurb h1,
+.bundles-hp-blurb-text span.green-text
+{ color:#000; font-family: 'montserrat-bold', Arial; font-size: 26px; font-weight: normal; margin: 45px auto 13px auto; padding: 0;
+    width: 1000px;
+}
+
+.bundles-hp-blurb-text span.green-text
+{ background: url('/getImage.php?src=images/bundles-homepage-blurb-sep.png') no-repeat right center;
+    color:#9bcb44; margin: 0; min-height: 50px; line-height: 50px; vertical-align: middle; width: 70px; }
+
+.bundles-hp-blurb-text ul { vertical-align: middle; }
+
+.bundles-hp-blurb-content
+{ border: 1px solid #eee; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    margin: 0 auto; width: 998px;
+}
+
+.bundles-hp-blurb-content h1
+{ font-family: 'montserrat-bold', Arial; font-size: 20px; font-weight: normal; color:#000; padding: 15px 0; text-align: center; }
+
+.bundles-hp-blurb-content h1 span.green { color:#9bcb44 }
+
+.bundles-hp-blurb-products { text-align: center; }
+
+.bundles-hp-blurb-products li
+{ font-family: 'montserrat-bold', Arial; font-size: 15px; font-weight: normal; color:#000; padding: 0 28px;  }
+
+.bundles-hp-blurb-products li .bundles-domainname-icon,
+.bundles-hp-blurb-products li .bundles-uhosting-icon,
+.bundles-hp-blurb-products li .bundles-email-icon,
+.bundles-hp-blurb-products li .bundles-wbuilder-icon,
+.bundles-hp-blurb-products li .bundles-ssl-icon
+{  background: url('/getImage.php?src=images/bundles-products-icons-sprite.png') no-repeat; display: block;
+    margin: 0 auto 5px auto;
+}
+
+.bundles-hp-blurb-products li .bundles-domainname-icon {
+    background-position: 0 0;
+    height: 30px;
+    width: 33px;
+}
+
+.bundles-hp-blurb-products li .bundles-uhosting-icon {
+    background-position: -36px 0;
+    height: 30px;
+    width: 30px;
+}
+
+.bundles-hp-blurb-products li .bundles-email-icon {
+    background-position: -72px 0;
+    height: 30px;
+    width: 30px;
+}
+
+.bundles-hp-blurb-products li .bundles-wbuilder-icon {
+    background-position: -107px 0;
+    height: 30px;
+    width: 30px;
+}
+
+.bundles-hp-blurb-products li .bundles-ssl-icon {
+    background-position: -141px 0;
+    height: 33px;
+    width: 30px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+
+    .bundles-hp-blurb-products li .bundles-domainname-icon,
+    .bundles-hp-blurb-products li .bundles-uhosting-icon,
+    .bundles-hp-blurb-products li .bundles-email-icon,
+    .bundles-hp-blurb-products li .bundles-wbuilder-icon,
+    .bundles-hp-blurb-products li .bundles-ssl-icon
+    {  background: url('/getImage.php?src=images/bundles-products-icons-sprite@2x.png') no-repeat; display: block;
+        background-size: 167px 33px;
+        margin: 0 auto 5px auto;
+    }
+
+    .bundles-hp-blurb-products li .bundles-domainname-icon {
+        background-position: 0 0;
+        height: 30px;
+        width: 33px;
+    }
+
+    .bundles-hp-blurb-products li .bundles-uhosting-icon {
+        background-position: -36px 0;
+        width: 31px;
+        height: 30px;
+    }
+
+    .bundles-hp-blurb-products li .bundles-email-icon {
+        background-position: -72px 0;
+        width: 31px;
+        height: 30px;
+    }
+
+    .bundles-hp-blurb-products li .bundles-wbuilder-icon {
+        background-position: -107px 0;
+        width: 31px;
+        height: 30px;
+    }
+
+    .bundles-hp-blurb-products li .bundles-ssl-icon {
+        background-position: -141px 0;
+        height: 33px;
+        width: 30px;
+    }
+
+}
+
+.bundles-hp-blurb-products li.plus-parent
+{ padding: 0; }
+
+.bundles-hp-blurb-products li .plus-icon {
+    color: #ccc; font-family: 'proxima_nova', Arial; font-weight: 200; font-size: 64px; vertical-align: top;
+    height: 30px; line-height: 35px; margin: -20px 7px 0 7px; width: 30px;
+}
+.buy-bundles-plans
+{ background: #2fbe15; color:#fff; font-family: 'montserrat-regular', Arial; font-size: 14px; font-weight: normal;
+    border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+    padding: 12px 25px; position: absolute; right: 30px; top:22px;
+}
+.buy-bundles-plans:hover { color:#fff; }
+
+
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb
+{ background: url('/getImage.php?src=images/homepage-banner-2.jpg') #fff repeat-x 0 center; }
+
+.new-homepage-wrapper-dark-banner.add-top-space .bundles-hp-blurb h1
+{ margin: 0 auto 13px; padding:45px 0 0; color:#fff; }
+
+.new-homepage-wrapper-dark-banner.add-top-space .bundles-hp-blurb-products li { color:#fff; }
+
+.new-homepage-wrapper-dark-banner.add-top-space .bundles-hp-blurb-content
+{ background: rgba(32,40,38, 0.8); border:0; }
+
+.new-homepage-wrapper-dark-banner.add-top-space .bundles-hp-blurb-products li .plus-icon
+{ color: #a8a8a8; }
+
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-text span.green-text
+{ background: url('/getImage.php?src=bundles-homepage-blurb-dark-sep.png') no-repeat right center; }
+
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-domainname-icon,
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-uhosting-icon,
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-email-icon,
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-wbuilder-icon,
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-ssl-icon
+{  background: url('/getImage.php?src=images/dark-bundle-products-sprite.png') no-repeat; display: block;
+    margin: 0 auto 5px auto;
+}
+
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-domainname-icon {
+    background-position: 0 0;
+    height: 30px;
+    width: 33px;
+}
+
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-uhosting-icon {
+    background-position: -59px 0;
+    height: 30px;
+    width: 30px;
+}
+
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-email-icon {
+    background-position: -117px 0;
+    height: 30px;
+    width: 30px;
+}
+
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-wbuilder-icon {
+    background-position: -177px 0;
+    height: 30px;
+    width: 30px;
+}
+
+.new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-ssl-icon {
+    background-position: -235px 0;
+    height: 33px;
+    width: 27px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-domainname-icon,
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-uhosting-icon,
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-email-icon,
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-wbuilder-icon,
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-ssl-icon
+    {  background: url('/getImage.php?src=images/dark-bundles-products-sprite@2x.png') no-repeat; display: block;
+        background-size: 262px 33px;
+        margin: 0 auto 5px auto;
+    }
+
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-domainname-icon {
+        background-position: 0 0;
+        height: 30px;
+        width: 33px;
+    }
+
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-uhosting-icon {
+        background-position: -63px 0;
+        width: 31px;
+        height: 30px;
+    }
+
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-email-icon {
+        background-position: -124px 0;
+        width: 31px;
+        height: 30px;
+    }
+
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-wbuilder-icon {
+        background-position: -180px 0;
+        width: 31px;
+        height: 30px;
+    }
+
+    .new-homepage-wrapper-dark-banner .bundles-hp-blurb-products li .bundles-ssl-icon {
+        background-position: -237px 0;
+        height: 33px;
+        width: 25px;
+    }
+}
+
+/* Gapps Admin */
+
+.gapps-admin-ac-container
+{ background: #fff; border:1px solid #ccc; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;
+    margin: 0 auto; padding: 30px 15px 30px 15px; text-align: center; width: 910px; margin-top: 28px;
+}
+
+.gapps-ac-admin-form-head { width: 910px; margin: 0 auto; text-align: center; }
+
+h1.gapps-ac-admin-form
+{ font-family: 'proxima_nova', Arial; font-size: 26px; font-weight: 600; color:#222; padding: 0; margin: 64px 0 14px 0; }
+
+.gapps-admin-ac-container p, .gapps-admin-ac-container label
+{ font-family: 'proxima_nova', Arial; font-size: 15px; font-weight: 100; color:#1b1b1b; line-height: 20px; padding-bottom: 8px; text-align: center;}
+
+p.admin-create-msg
+{
+    font-family: 'proxima_nova', Arial;
+    font-size: 20px; line-height: 20px; font-weight: 100;
+    padding-bottom: 19px; text-align: center;
+}
+
+.admin-priv
+{ border-bottom: 1px dashed #4285f4; position: relative; }
+
+p.admin-create-msg em
+{ font-family: 'proxima_nova', Arial; font-size: 16px; font-weight: 100; color:#222;
+    font-style: italic; display: block; margin: 10px auto -19px auto;  }
+
+.bot-arrow
+{ background: url("/getImage.php?src=images/success-new-gapps.png") no-repeat;
+    height: 8px; width: 13px; position: absolute; display: block; bottom: -8px; left: 60px; }
+
+.gapps-admin-ac-container form.outer-form-container
+{
+
+    font-size: 100%;
+    margin: 0 auto;
+    vertical-align: baseline;
+    width: 80%;
+}
+
+.gapps-admin-ac-container form.outer-form-container div.col1 label,
+.gapps-admin-ac-container form.outer-form-container div.col1 input,
+.gapps-admin-ac-container form.outer-form-container div.col2 label,
+.gapps-admin-ac-container form.outer-form-container div.col2 input
+{
+    display: block !important;
+}
+
+.gapps-admin-ac-container form.outer-form-container label
+{
+    text-align: left;
+}
+
+.gapps-admin-ac-container form.outer-form-container div.col1
+{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-bottom: 12px;
+}
+
+.gapps-admin-ac-container form.outer-form-container div.col1:last-child
+{
+    margin-bottom: 21px;
+}
+
+.clear.apply-margin{
+    margin: 25px;
+}
+
+.gapps-admin-ac-container form.outer-form-container div.email span
+{
+    margin-left: -40px;
+    margin-top: -42px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.gapps-admin-ac-container input
+{
+    padding: 15px;
+    border:1px solid #ccc;
+    border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+    height: 40px; line-height: 40px; outline: none;
+    margin: 0 0 10px 0; padding: 0 0 0 10px; width: 211px;
+    font-family: 'proxima_nova', Arial; font-size: 16px; color:#1b1b1b; font-weight: 100;
+}
+
+.gapps-admin-ac-container input.error-code
+{ border:1px solid #d10b0b; }
+
+/*.gapps-admin-ac-container .new-ui-button, .gapps-admin-ac-container .gray-ui-button
+{  background: #5fa532; border:1px solid #39811e; font-weight: bold;
+    color:#fff; height: 42px; margin: 0 0 0 -6px; outline: none; vertical-align: top; text-align: center; width: 80px;
+    border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0; -webkit-border-radius: 0 4px 4px 0;font-family: 'proxima_nova', Arial; font-size: 16px; font-weight: 100;
+
+}*/
+
+.gapps-admin-ac-container .submit-button
+{
+    padding: 20px 0 20px 0;
+    text-align: left;
+}
+
+.gapps-admin-ac-container .new-ui-button,
+div#customer_details a.continue-orders
+{
+    background: #2fbe15 none repeat scroll 0 0;
+    border: 1px solid #18900b;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 1px 1px 2px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 5%;
+    outline: medium none;
+    padding: 12px 30px ;
+    text-align: center;
+    text-decoration: none;
+    height: 67px;
+    font-family: 'proxima_nova', Arial;
+}
+
+div#customer_details a.continue-orders {
+    margin: 0 auto 20px auto;
+}
+
+.gapps-admin-ac-container .gray-ui-button
+{
+    /*background: #dedede; border: 1px solid #c7c7c7; color: #8a8a8a;*/
+    background: #dedede none repeat scroll 0 0;
+    border: 1px solid #c7c7c7 ;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(0, 0, 0, 0.2);
+    color: black;
+    cursor: pointer;
+    font-family: "proxima_nova",Arial;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0 auto;
+    outline: medium none;
+    padding: 12px 30px ;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #0232b3;
+
+}
+
+.gapps-admin-ac-container .block{display: block; }
+
+.gapps-admin-ac-container a
+{ color: #377ce4; text-decoration: underline; }
+
+.gapps-admin-ac-container input[type="checkbox"]
+{ margin: 4px 4px 0 0; display: inline-block; vertical-align: top; }
+
+.gapps-admin-ac-container label { display: inline-block; width: 94%; }
+
+.gapps-admin-ac-container .resend-code { margin-bottom: 30px; }
+
+.gapps-admin-ac-container .resend-code .font-small,
+.gapps-admin-ac-container .public-pc,
+.gapps-admin-ac-container-note p
+{ color:#1b1b1b; font-family: 'proxima_nova', Arial; font-size: 13px; font-weight: 100; }
+
+.gapps-admin-ac-container .public-pc{ margin: 0 0 0 20px; }
+
+.gapps-admin-ac-container-note { border-top: 1px solid #ccc; margin: 28px 0 0 0; padding: 20px 0 28px 0; }
+
+.gapps-admin-ac-container .show-loader,
+.gapps-admin-ac-container .sent-icon,
+.gapps-admin-ac-container .waiting-icon
+{ display: inline-block; }
+
+.gapps-admin-ac-container .show-loader
+{
+    background: url("/getImage.php?src=images/two-step-auth-loader.gif") left center no-repeat;
+    height: 16px; margin: 0 4px 0 3px; width: 16px;
+}
+
+.gapps-admin-ac-container .sent-icon
+{
+    background: url("/getImage.php?src=images/login-otp-sent.png") left center no-repeat;
+    height: 11px; margin: 0 4px 0 3px; width: 12px;
+}
+.gapps-admin-ac-container .waiting-icon
+{
+    background: url("/getImage.php?src=images/login-otp-wait.png") left center no-repeat;
+    height: 14px; margin: 0 4px 0 3px; width: 14px;
+}
+.gapps-admin-ac-container  .font-small.error-code-msg
+{ color: #e00a0a !important; font-family: 'proxima_nova', Arial; font-size: 13px; font-weight: 100; margin: -4px 0 7px 0; }
+
+#gapps-transfer-token-step1 .outer-form-container label.error {
+    padding: 0; position: absolute; left:0; bottom:10px;
+}
+
+#gapps-transfer-token-step1 .outer-form-container label.error{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #f00;
+    font-family: "proxima_nova",Arial;
+    font-size: 12px;
+    font-weight: 100;
+    border: 0;
+
+
+}
+#transfertoken_domain_name, #existing_domain_name, #domain_transfer_token { margin-bottom: 15px !important; }
+
+
+
+/* Gapps Admin A/C form */
+
+.gapps-admin-ac-container label.error.checked {
+    display: none !important;
+}
+
+.gapps-admin-ac-container a.gray-ui-button { text-shadow: none; color:#333; text-align: center; display: inline-block; vertical-align: top; }
+
+.gapps-admin-ac-container a.gray-ui-button strong { display: block; }
+
+.CartItemRow.gapps-empty-cart {
+    color: #1b1b1b;
+    font-family: proxima_nova;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#gapps-admin-form .submit-button a {
+    color: #377ce4;  display: inline-block;  font-family: proxima_nova;  font-size: 16px;  font-weight: 100;
+    text-align: center;  text-decoration: underline;  vertical-align: middle;
+}
+
+
+#gapps-transfer-token-step1 .outer-form-container label.error{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #f00;
+    font-family: "proxima_nova",Arial;
+    font-size: 12px;
+    font-weight: 100;
+    position: static;
+    border:0;
+    padding: 0;
+    display: inline;
+
+}
+
+
+/* Two Factor Auth OTP Form */
+
+.two-fa-container
+{ background: #fff; border:1px solid #ccc; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;
+  margin: 0 auto; padding: 23px 30px 30px 27px; text-align: left; width: 566px;
+}
+
+.two-fa-container h1
+{ font-family: 'proxima_nova', Arial; font-size: 26px; font-weight: 600; color:#222; margin: 0 0  24px 0; padding: 0; }
+
+.two-fa-container p, .two-fa-container label
+{ font-family: 'proxima_nova', Arial; font-size: 15px; font-weight: 100; color:#1b1b1b; line-height: 20px; padding-bottom: 8px; }
+
+.two-fa-container input[type = "text"]
+{   border:1px solid #ccc; ;
+    height: 40px; line-height: 40px; outline: none;
+    margin: 0 0 10px 0; padding: 0 0 0 10px; width: 125px;
+    font-family: 'proxima_nova', Arial; font-size: 16px; color:#1b1b1b; font-weight: 100;
+}
+
+.two-fa-container input[type = "text"].error-code
+{ border:1px solid #d10b0b; }
+
+.two-fa-container .new-ui-button, .two-fa-container .gray-ui-button
+{  background: #5fa532; border:1px solid #39811e; font-weight: bold;
+    color:#fff; height: 42px; margin: 0 0 0 -6px; outline: none; vertical-align: top; text-align: center; width: 80px;
+    border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0; -webkit-border-radius: 0 4px 4px 0;font-family: 'proxima_nova', Arial; font-size: 16px; font-weight: 100;
+
+}
+
+.two-fa-container .gray-ui-button
+{ background: #dedede; border: 1px solid #c7c7c7; color: #8a8a8a;
+
+}
+
+.two-fa-container .block{display: block; }
+
+.two-fa-container a
+{ color: #377ce4; text-decoration: underline; }
+
+.two-fa-container input[type="checkbox"]
+{ margin: 4px 4px 0 0; display: inline-block; vertical-align: top; }
+
+.two-fa-container label { display: inline-block; width: 94%; }
+
+.two-fa-container .resend-code { margin-bottom: 16px; }
+
+.modal-wrapper .two-fa-container .resend-code { margin-bottom: 18px; }
+
+.two-fa-container .resend-code .font-small,
+.two-fa-container .public-pc,
+.two-fa-container-note p
+{ color:#1b1b1b; font-family: 'proxima_nova', Arial; font-size: 13px; font-weight: 100; }
+
+.two-fa-container-note p
+{ font-size: 12px; }
+
+.two-fa-container .public-pc{ margin: 0 0 0 20px; }
+
+.two-fa-container-note { border-top: 1px solid #ccc;  margin: 11px 0 -15px; padding: 10px 0 0; }
+
+.modal-wrapper .two-fa-container-note {  margin: 13px 0 -15px;  }
+
+.two-fa-container .show-loader,
+.two-fa-container .sent-icon,
+.two-fa-container .waiting-icon
+{ display: inline-block; }
+
+.two-fa-container .show-loader
+{
+    background: url("/getImage.php?src=images/two-step-auth-loader.gif") left center no-repeat;
+    height: 16px; margin: 0 4px 0 3px; width: 16px;
+}
+
+.two-fa-container .sent-icon
+{
+    background: url("/getImage.php?src=images/login-otp-sent.png") left center no-repeat;
+    height: 11px; margin: 0 4px 0 3px; width: 12px;
+}
+.two-fa-container .waiting-icon
+{
+    background: url("/getImage.php?src=images/login-otp-wait.png") left center no-repeat;
+    height: 14px; margin: 0 4px 0 3px; width: 14px;
+}
+.two-fa-container  .font-small.error-code-msg
+{ color: #e00a0a !important; font-family: 'proxima_nova', Arial; font-size: 13px; font-weight: 100; margin: -4px 0 7px 0; }
+
+.two-fa-container label[for="twofa_otp"]
+{ font-weight: 600; }
+
+.two-fa-container label[for="trust-device"]
+{ font-size: 13px; }
+
+.hide { display: none;}
+.show { display: block;}
+
+.modal-wrapper .two-fa-container
+{ position: relative; border:1px solid #fff; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; width: 600px; }
+
+.modal-wrapper .two-fa-container h1
+{ background: none; text-shadow: none; text-align: left; border-bottom:0;  }
+
+#two_factor_auth_block .modal_content
+{
+    padding: 6px;
+    background: #717171;
+    border: 1px solid #878787;
+    width: 662px !important;
+}
+
+.two-fa-container .modal_close { display: none; text-decoration: none; }
+
+.modal-wrapper .two-fa-container .modal_close
+{ background: url("/getImage.php?src=close.png") no-repeat 0 0; right: 20px; top:10px; height:15px;
+  position: absolute; width:15px; opacity:0.6; display: block;
+}
+
+.modal-wrapper .two-fa-container .modal_close:hover
+{ opacity:0.8 }
+
+.modal-wrapper .two-fa-container .modal_close:active
+{ opacity: 1; }
+
+.two-fa-container .resend-code.preloader .font-small,
+.two-fa-container .resend-code.sent .font-small,
+.two-fa-container .resend-code.wait .font-small
+{ color:#888; }
+
+
+
