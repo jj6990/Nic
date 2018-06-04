@@ -17,10 +17,12 @@
                         <link rel="icon" href="https://cdnassets.com/getImage.php?url=bea2728277.supersite2.myorderbox.com&amp;src=favicon.ico&amp;t=1527660280" type="image/x-icon">
                         <link rel="shortcut icon" href="https://cdnassets.com/getImage.php?url=bea2728277.supersite2.myorderbox.com&amp;src=favicon.ico&amp;t=1527660280" type="image/x-icon">
  <!--                        <#loop:css_list#>-->
-                        <link rel="stylesheet" type="text/css" href="templates/CSS/Common/contact-support.css">
-                            <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Style.css">
+                        <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Style.css">
+                        <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev1.css">
+ <!--                         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/contact-support.css">
+
                             <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Style3.css">
-                            <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev1.css">
+                            
                             <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev2.css">
                             <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev4.css">
                             <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev5.css">
@@ -32,12 +34,15 @@
                             <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Homev2.css">
                             <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Homev3.css">
                             <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Spanish.css">
- <!-- Estilos del Home                            <#/loop:css_list#>-->
+-->
+ <!-- Estilos del Home                            <#/loop:css_list#>
 <link rel="stylesheet" type="text/css" href="templates/CSS/Homepage/homepage.css">
 <link rel="stylesheet" type="text/css" href="templates/CSS/Homepage/Homev2.css">
 <link rel="stylesheet" type="text/css" href="templates/CSS/Homepage/Homev3.css">
-
+-->
                                 <script type="text/javascript" src="templates/JS/jquery.js"></script>
+<script type="text/javascript" src="templates/JS/vendor/foundation.js"></script>
+<script type="text/javascript" src="templates/JS/vendor/what-input.js"></script>
                                 <script>
                                     if ( !jQuery.migrateVersion) {
                                         document.write('<script src="https://cdnassets.com/ui/supersite/en/js/jquery-migrate-3.0.0.js?t=1527660279""><\/script>');
@@ -111,10 +116,10 @@
 </div>
 <![endif]-->
 
-<div id="">
-    <div id="header-wrapper">
-    <#include file="Common/Header/Header.tpl"#>
-    </div>
+
+<div id="header-wrapper">
+<#include file="Common/Header/Header.tpl"#>
+</div>
 </div>
 </body>
 </html>

@@ -1,10 +1,7 @@
-<?php /* Smarty version 2.6.30, created on 2018-06-01 18:05:51
+<?php /* Smarty version 2.6.30, created on 2018-06-04 09:37:27
          compiled from Common/Header/Includes/Header_dashboard.tpl */ ?>
-<div id="">
-    <div class="top-header">
+<div class="top-header">
     <header>
-
-
       <nav>
         <ul id="menu-main" class="menu">
             <li class="menu-item  menu-item-has-children"><a href="#" marked="1">About</a>
@@ -22,17 +19,6 @@
                     </ul>
                 </li>
                                     <li><a href="/login.php"><span class="ic-top-set ic-top-user"></span>Entrar / Crear cuenta</a></li>
-                    
-                                    <form name="change_lang" method="POST" action="/index.php?action=change_lang" style="display: none;">
-                        <input type="hidden" name="language">
-                    </form>
-                    <li class="lang-opt">
-                        <span class="dashboard-option-label">Idioma:&nbsp;</span>
-                        <span class="lang-on" id="current_selected_language">Selecciona Languaje</span><span class="ic-top-set ic-top-sdd"></span>
-                        <ul class="user-dd" id="change_language_header">
-                                                            <li data-langkey="" data-selectedlanguage=""></li>
-                                                    </ul>
-                    </li>
                 
                                     <form action="/content.php" method="post" name="currency_change_form" style="display: none;">
                         <input type="hidden" name="action" value="change_display_currency"/>
@@ -48,13 +34,10 @@
                     <!-- Reseller logged details,Signout (Path: common/header/includes/header_reseller_details.html -->
                         <!-- Reseller logged details,Signout End -->
         
-        <ul class="top-nav">
-            
-        </ul>
 
-        <div class="clear"></div>
 
-    </div>
+      
+
 </div>
 <input type="hidden" id="signout1" value="">
 <input type="hidden" id="signout2" value="">

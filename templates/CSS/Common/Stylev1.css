@@ -735,7 +735,7 @@ body {
 header {
 	position:absolute;
 	top:0;
-	left:0;
+	right:0;
 	width:100%;
 	z-index:100
 }
@@ -765,11 +765,13 @@ header h1 a:after {
 	content:'';
 	display:block
 }
+/*
 header nav {
 	position:absolute;
 	top:0px;
 	right:00px
 }
+*/
 header nav ul {
 	margin:0;
 	padding:0

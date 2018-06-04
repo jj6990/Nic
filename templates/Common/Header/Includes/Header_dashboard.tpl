@@ -1,8 +1,5 @@
-<div id="">
-    <div class="top-header">
+<div class="top-header">
     <header>
-
-
       <nav>
         <ul id="menu-main" class="menu">
             <li class="menu-item  menu-item-has-children"><a href="#" marked="1">About</a>
@@ -22,22 +19,7 @@
                 </li>
                 <#else:isloggedin#>
                     <li><a href="/login.php"><span class="ic-top-set ic-top-user"></span>Entrar / Crear cuenta</a></li>
-                    <#/if:isloggedin#>
-
-                <#if:show_language_box#>
-                    <form name="change_lang" method="POST" action="/index.php?action=change_lang" style="display: none;">
-                        <input type="hidden" name="language">
-                    </form>
-                    <li class="lang-opt">
-                        <span class="dashboard-option-label">Idioma:&nbsp;</span>
-                        <span class="lang-on" id="current_selected_language">Selecciona Languaje</span><span class="ic-top-set ic-top-sdd"></span>
-                        <ul class="user-dd" id="change_language_header">
-                            <#loop:live_languages#>
-                                <li data-langkey="<#tag:live_languages[].key /#>" data-selectedlanguage="<#tag:live_languages[].selected /#>"><#tag:live_languages[].value /#></li>
-                            <#/loop:live_languages#>
-                        </ul>
-                    </li>
-                <#/if:show_language_box#>
+                <#/if:isloggedin#>
 
                 <#if:show_currency_box#>
                     <form action="/content.php" method="post" name="currency_change_form" style="display: none;">
@@ -58,13 +40,10 @@
             <!-- Reseller logged details,Signout End -->
         <#/if:show_reseller_logged_in#>
 
-        <ul class="top-nav">
-            
-        </ul>
 
-        <div class="clear"></div>
 
-    </div>
+      
+
 </div>
 <input type="hidden" id="signout1" value="<#tag:signout1 /#>">
 <input type="hidden" id="signout2" value="<#tag:signout2 /#>">
