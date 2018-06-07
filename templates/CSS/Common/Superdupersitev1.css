@@ -1,3 +1,12 @@
+/* JUAN */
+body {font:normal 12px Arial, Helvetica, sans-serif; color:#434343; margin:0px; padding:0px; background:#D6D6D6;}
+ul li {list-style-type:none;}
+h1 {color:#454545; font-size:24px;}
+h4 {font:bold 18px Arial,Helvetica,sans-serif; color: #434343; margin: 0; padding: 0 0 10px 0;}
+.clear {clear:both;}
+.comman-list ul {margin-left:20px;}
+.comman-list li {list-style:disc; font-size:12px; margin:10px 0;}
+
 /* Fonts */
 
 @font-face {
