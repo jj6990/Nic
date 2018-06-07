@@ -1,73 +1,31 @@
-<?php /* Smarty version 2.6.30, created on 2018-05-31 17:12:18
+<?php /* Smarty version 2.6.30, created on 2018-06-07 21:05:02
          compiled from Homepage/domain-focused-indexv1.tpl */ ?>
-<div class="new-homepage-wrapper domain-focused-homepage">
+      <section id="hero" class="grid-y">
+    <form class="content" name="form_domain_avail" action="/domain-registration/index.php" id="homepageDomainSearch" method="post">
+        <h1>Busca tu domino</h1>
+        <input type="text" name="txtDomainName" value="" placeholder="Encuentra tu nombre de dominio ideal..." id="field_domains-input" class="optionalField domains-input"
+                   maxlength="65">
+        <button type="submit" class="button hvr-outline-out" id="go_btn" onclick="return check_domain_name();">Buscar</button>
 
-    <div class="domains-homepage-container">
+    </form>
+</section>
+<section>
+  <div class="parallax-content">
+  <p>Bacon ipsum dolor sit amet chicken pork loin hamburger ball tip, swine tenderloin salami meatball boudin tri-tip fatback shank bacon. Pork salami kevin, brisket spare ribs strip steak ham hock porchetta. Pork belly short loin tail porchetta. Pork pig meatball, beef ribs doner jerky tri-tip hamburger filet mignon strip steak ball tip ham tail tongue corned beef.</p>
 
-        <div class="homepage-banner">
+  <p>Flank spare ribs capicola, strip steak biltong pancetta bresaola tri-tip cow landjaeger. Short ribs sirloin beef ribs, flank capicola ribeye turducken. Sirloin boudin andouille tail. Ham flank tail sausage t-bone, jerky landjaeger kevin porchetta ground round pork belly.</p>
 
-            <a href="/new-domain-extensions"><span class="homepage-new-gtld-link">Revelando Extensiones Especializados</span></a>
-            <div class="domain-homepage-banner">
-                <h1>Reserve su dominio</h1>
-                <span class="subtext">"Crea tu identidad en línea en minutos"</span>
-                <!--form name="" action="" class="validation-error"-->
-                <form action="/domain-registration/index.php" method="post" name="form_domain_avail" id="homepageDomainSearch">
-                    <input type="hidden" value="check_availability" name="action">
-                    <input type="text" name="txtDomainName" value="" placeholder="Encuentre su Nombre de Dominio Ideal..." class="optionalField" id="field_domains-input" maxlength="65"/>
-                    <button type="submit" class="green-submit-button" id="go_btn" onclick="return check_domain_name();">Buscar</button>
-                    <span class="validation-error-message" id="error_msg" style="display: none">Porfavor ingrese un nombre de dominio válido</span>
-                </form>
-            </div>
+  <p>Pork loin doner biltong shoulder meatball flank. Sirloin shankle ground round tail, short loin prosciutto beef ribs salami pork pancetta kielbasa. Brisket spare ribs jerky filet mignon flank. Turducken ham sausage pork loin salami. Ball tip meatloaf shank pancetta hamburger meatball. Jowl beef pork loin tenderloin turducken, pastrami capicola filet mignon ham hock pork belly t-bone jerky ball tip kevin.</p>
 
-        </div>
+  <p>Filet mignon shank pastrami pork loin ham jerky corned beef chuck drumstick ribeye prosciutto pork belly tail. Beef leberkas brisket ham hock tenderloin tail tri-tip pork chop. Corned beef boudin andouille tail fatback chicken strip steak biltong pancetta pork loin tri-tip landjaeger pastrami kevin. Tongue spare ribs kevin ribeye shoulder swine.</p>
 
-        <div class="domains-banner-shadow">
-            <div class="domain-hp-tld-list">&nbsp;</div>
-        </div>
+  <p>Chicken kielbasa swine ham hock filet mignon strip steak bacon fatback pork t-bone. Ground round shankle tongue, jowl flank spare ribs beef leberkas ham boudin shank capicola short ribs. Drumstick pork loin turkey pork chop salami andouille pork belly. Short loin tongue tri-tip, hamburger filet mignon pastrami doner shoulder turkey ball tip t-bone jerky ham chicken.</p>
 
-        <br class="clear" />
-
-        <div class="domain-hp-content">
-
-            <h1>El Precio más bajo garantizado!</h1>
-            <!--<span class="subtext block">Algun texto explicativo va aquí</span>-->
-
-            <ul class="lowest-price-tlds-list">
-
-                                                            <li class="inline-block">
-                            <span class="tld-name">.</span>
-                            <span class="original-price lfloat"></span>
-                            <span class="discounted-price rfloat"></span>
-                        </li>
-                                                                <li class="inline-block">
-                            <span class="tld-name">.</span>
-                            <span class="discounted-price"></span>
-                        </li>
-                                                </ul>
-
-            <a href="/domain-registration/domain-registration-price.php" class="rfloat more-tlds">Ver Precios</a>
-
-        </div>
-
-        <div class="domain-hp-free-addons">
-
-            <h1>Libre de Add-Ons con cada nombre de dominio!</h1>
-            <!--<span class="subtext block">Some explanatory text goes here</span>-->
-
-            <ul>
-                                <li class="inline-block"><span id="free-email" class="addon-icon inline-block"></span>Cuenta de Correo electrónico gratuita</li>
-                                <li class="inline-block"><span id="bulk-tools" class="addon-icon inline-block"></span>Herramientas al por mayor</li>
-                                <li class="inline-block"><span id="dns-manage" class="addon-icon inline-block"></span>Administración DNS</li>
-                                <li class="inline-block"><span id="control-panel" class="addon-icon inline-block"></span>Control de Panel fácil de usar</li>
-                <li class="inline-block"><span id="theft-protection" class="addon-icon inline-block"></span>Protección de robo contra dominio</li>
-                                <li class="inline-block"><span id="domain-fwd" class="addon-icon inline-block"></span>Redireccionamiento de Dominio</li>
-                                                <li class="inline-block"><span id="mail-fwd" class="addon-icon inline-block"></span>Envio ilimitado de correos</li>
-                            </ul>
-
-        </div>
-
-    </div>
-
+  <p>Ground round flank pork loin salami, cow biltong hamburger swine brisket tongue tenderloin drumstick meatball. Biltong tongue salami ham shankle, leberkas meatloaf sirloin ball tip. Pork loin pastrami spare ribs beef capicola sausage kevin filet mignon pork chop. Bacon jerky turkey shoulder cow capicola ball tip shank. Ham tongue tail tri-tip kielbasa ham hock frankfurter meatball cow brisket. Shankle sausage filet mignon biltong pork loin. Short ribs spare ribs chuck pig meatloaf shoulder cow tail brisket biltong ball tip ham hock.</p>
 </div>
-
-<script type="text/javascript" src="/ui/supersite/en/js/homepage.js"></script>
+</section>
+<script type="text/javascript">
+    var highlight_preferred_bundle_plan = 'false';
+</script>
+<script type="text/javascript" src="//cdnassets.com/ui/supersite/en/js/homepage.js?t=1527766621"></script>
+<script>$(document).foundation()</script>
