@@ -9,8 +9,8 @@
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev5.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev6.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev7.css">
-        <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Superdupersitev1.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Superdupersite.css">
+        <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Superdupersitev1.css">
 </head>
 <body>
     <div class="header">

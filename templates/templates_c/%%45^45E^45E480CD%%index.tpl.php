@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2018-06-07 21:15:21
+<?php /* Smarty version 2.6.30, created on 2018-06-07 21:20:48
          compiled from index.tpl */ ?>
 <html>
 <head>
@@ -6,13 +6,13 @@
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Style.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev1.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev2.css">
-        <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev3.css">
+        <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Style3.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev4.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev5.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev6.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Stylev7.css">
-        <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Superdupersitev1.css">
         <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Superdupersite.css">
+        <link rel="stylesheet" type="text/css" href="templates/CSS/Common/Superdupersitev1.css">
 </head>
 <body>
     <div class="header">
