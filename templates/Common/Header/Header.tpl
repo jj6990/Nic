@@ -4,11 +4,42 @@
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li class="nivel-1"><a href="/">Inicio</a></li>
-      <li class="nivel-1"><a href="/domain-registration/index.php">Dominios</a></li>
-      <li class="nivel-1"><a href="/website-design/do-it-yourself-website-builder.php">Sitios web</a></li>
-      <li class="nivel-1"><a href="/web-hosting/index.php">Alojamiento</a></li>
-      <li class="nivel-1"><a href="#">Correo Electrónico</a></li>
-      <li class="nivel-1"><a href="<#tag:security_link /#>">Seguridad</a></li>
+      <li id="openDominios" class="nivel-1"><a href="/domain-registration/index.php">Dominios</a>
+      </li>
+      <li id="openSitiosWeb" class="nivel-1"><a href="/website-design/do-it-yourself-website-builder.php">Sitios web</a>
+      </li>
+      <li class="nivel-1"><a href="/web-hosting/index.php">Alojamiento</a>
+          <ul class=" subDominio">
+            <li><a href="#">Alojamiento compartido linux</a></li>
+            <li><a href="#">Alojamiento compartido windows</a></li>
+            <li><a href="#">Alojamiento wordpress</a></li>
+            <li><a href="#">Alojamiento en la nube</a></li>
+            <li><a href="#">Alojamiento revendedor</a></li>
+          </ul>
+      </li>
+      <li class="nivel-1"><a href="#">Correo Electrónico</a>
+          <ul class=" subDominio">
+            <li><a href="#">G-suite</a></li>
+            <li><a href="#">Correo electrónico de negocios</a></li>
+            <li><a href="#">Correo electrónico de Empresa</a></li>
+          </ul>
+      </li>
+      <li class="nivel-1"><a href="<#tag:security_link /#>">Seguridad</a>
+          <ul class=" subDominio">
+            <li><a href="#">Certificado SSL</a></li>
+            <li><a href="#">Sitelock</a></li>
+            <li><a href="#">Codeguard</a></li>
+          </ul>
+      </li>
+      <li class="nivel-1"><a href="<#tag:security_link /#>">Servidores</a>
+          <ul class=" subDominio">
+            <li><a href="#">VPS</a></li>
+            <li><a href="#">VPS Linux KVM</a></li>
+            <li><a href="#">Servidores Dedicados Linux</a></li>
+            <li><a href="#">Servidores Dedicados Windows</a></li>
+            <li><a href="#">Servidores Administrados</a></li>
+          </ul>
+      </li>
     </ul>
   </div>
   <div class="top-bar-right">
@@ -17,3 +48,16 @@
     </ul>
   </div>
 </div>
+
+	
+
+	
+	
+	
+	
+	
+
+
+
+
+

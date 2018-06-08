@@ -9,6 +9,77 @@
 </section>
 <section>
   <div class="parallax-content">
+<div class="cardDominios">
+<p><h3>Dominios</h3></p>
+    <div class="card">
+        <div class="card-divider">
+            Registro de dominios
+        </div>
+        <img src="https://www.nominalia.com/wp-content/uploads/domain_allincluded_icon_homepage.svg">
+        <div class="card-section">
+            <h4>This is a card.</h4>
+            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-divider">
+            Registro masivo de dominios
+        </div>
+        <img src="https://www.nominalia.com/wp-content/uploads/domain_allincluded_icon_nolimitSpace.svg">
+        <div class="card-section">
+            <h4>This is a card.</h4>
+            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        </div>
+    </div>
+        <div class="card">
+        <div class="card-divider">
+            Transferencia de dominios
+        </div>
+        <img src="https://www.nominalia.com/wp-content/uploads/domain_allincluded_icon_homepage.svg">
+        <div class="card-section">
+            <h4>This is a card.</h4>
+            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-divider">
+            Transferencia masiva de dominios
+        </div>
+        <img src="https://www.nominalia.com/wp-content/uploads/domain_allincluded_icon_nolimitSpace.svg">
+        <div class="card-section">
+            <h4>This is a card.</h4>
+            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        </div>
+    </div>
+</div><!-- Fin CardDominios -->
+
+<div class="cardSitiosWeb">
+<p><h3>Sitios Web</h3></p>
+
+    <div class="card">
+        <div class="card-section">
+            <div class="card-divider">
+                Weebly
+            </div>
+            <img src="https://www.nominalia.com/wp-content/uploads/domain_allincluded_icon_assistenza.svg">
+            <h4>This is a card.</h4>
+            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <div class="card-divider">
+                Impress.ly
+            </div>
+            <img src="https://www.nominalia.com/wp-content/uploads/domain_allincluded_icon_assistenza.svg">
+            <h4>This is a card.</h4>
+            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        </div>
+    </div>
+</div> <!-- Fin CardSitiosWeb -->
+
+
   <p>Bacon ipsum dolor sit amet chicken pork loin hamburger ball tip, swine tenderloin salami meatball boudin tri-tip fatback shank bacon. Pork salami kevin, brisket spare ribs strip steak ham hock porchetta. Pork belly short loin tail porchetta. Pork pig meatball, beef ribs doner jerky tri-tip hamburger filet mignon strip steak ball tip ham tail tongue corned beef.</p>
 
   <p>Flank spare ribs capicola, strip steak biltong pancetta bresaola tri-tip cow landjaeger. Short ribs sirloin beef ribs, flank capicola ribeye turducken. Sirloin boudin andouille tail. Ham flank tail sausage t-bone, jerky landjaeger kevin porchetta ground round pork belly.</p>
@@ -26,4 +97,13 @@
     var highlight_preferred_bundle_plan = 'false';
 </script>
 <script type="text/javascript" src="//cdnassets.com/ui/supersite/en/js/homepage.js?t=1527766621"></script>
-<script>$(document).foundation()</script>
+<script>$(document).foundation()
+$( "#openDominios" ).mouseover(function verDominios() {
+     $( ".cardDominios", ).css( "display", "block" );
+     $( ".cardSitiosWeb", ).css( "display", "none" ); 
+     });
+$( "#openSitiosWeb" ).mouseover(function verDominios() { 
+    $( ".cardSitiosWeb", ).css( "display", "block" ); 
+    $( ".cardDominios", ).css( "display", "none" );
+    });
+</script>

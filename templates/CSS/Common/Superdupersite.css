@@ -3974,7 +3974,7 @@ select {
   .is-dropdown-submenu > li {
     width: 100%; }
   .is-dropdown-submenu.js-dropdown-active {
-    display: block; }
+    display: -webkit-box; }
 
 .responsive-embed,
 .flex-video {

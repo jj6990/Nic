@@ -1,23 +1,2 @@
-.header{
-    position: relative;
-}
 
-.top-bar{
-    position: absolute;
-    top: 50px;
-    z-index: 2;
-    /*opacity: 0.5;*/
-    background-color: transparent;
-    width: 100%;
-}
-.top-bar ul{
-    background-color: transparent;   
-}
-li:hover {
-    background-color: #274FCB;
-    border-top:5px solid #274FCB;
-	-webkit-transition:all 0.3s ease-out;
-	-o-transition:all 0.3s ease-out;
-	transition:all 0.3s ease-out;
-}
 
