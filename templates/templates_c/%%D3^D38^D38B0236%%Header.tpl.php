@@ -1,7 +1,17 @@
-<?php /* Smarty version 2.6.30, created on 2018-06-08 20:53:06
+<?php /* Smarty version 2.6.30, created on 2018-06-08 22:03:41
          compiled from Common/Header/Header.tpl */ ?>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.3/dist/js/foundation.min.js"></script>
+<nav>
+  <ul>
+    <li><a href="#">Dominios</a>
+    </li>
+    <li><a href="#">Sitios Web</a></li>
+    <li><a href="#">Alojamiento</a></li>
+    <li><a href="#">Correo Electrónico</a></li>
+    <li><a href="#">Seguridad</a></li>
+    <li><a href="#">Servidores</a></li>
+  </ul></nav>
   <div class="top-bar" id="mainNavigation">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
